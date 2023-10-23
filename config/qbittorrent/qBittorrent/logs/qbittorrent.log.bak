@@ -1,0 +1,806 @@
+(N) 2023-06-25T19:34:48 - qBittorrent v4.5.3 started
+(N) 2023-06-25T19:34:48 - Using config directory: /config/qBittorrent
+(N) 2023-06-25T19:34:48 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-06-25T19:34:48 - Peer ID: "-qB4530-"
+(I) 2023-06-25T19:34:48 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-06-25T19:34:48 - Distributed Hash Table (DHT) support: ON
+(I) 2023-06-25T19:34:48 - Local Peer Discovery support: ON
+(I) 2023-06-25T19:34:48 - Peer Exchange (PeX) support: ON
+(I) 2023-06-25T19:34:48 - Anonymous mode: OFF
+(I) 2023-06-25T19:34:48 - Encryption support: ON
+(I) 2023-06-25T19:34:48 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-06-25T19:34:48 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-06-25T19:34:48 - Successfully listening on IP. IP: "172.18.0.5". Port: "TCP/6881"
+(I) 2023-06-25T19:34:48 - Successfully listening on IP. IP: "172.18.0.5". Port: "UTP/6881"
+(W) 2023-06-25T19:34:48 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2023-06-25T19:34:49 - Using built-in Web UI.
+(W) 2023-06-25T19:34:49 - Couldn't load Web UI translation for selected locale (C).
+(N) 2023-06-25T19:34:49 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-06-25T19:34:51 - Successfully listening on IP. IP: "10.8.0.25". Port: "TCP/6881"
+(I) 2023-06-25T19:34:51 - Successfully listening on IP. IP: "10.8.0.25". Port: "UTP/6881"
+(W) 2023-06-25T19:34:53 - Couldn't download IP geolocation database file. Reason: The remote host name was not found (invalid hostname)
+(I) 2023-06-25T19:34:54 - Detected external IP. IP: "198.44.136.182"
+(I) 2023-06-25T19:35:16 - Successfully listening on IP. IP: "10.8.0.15". Port: "TCP/6881"
+(I) 2023-06-25T19:35:16 - Successfully listening on IP. IP: "10.8.0.15". Port: "UTP/6881"
+(I) 2023-06-25T19:35:28 - Successfully listening on IP. IP: "10.8.0.28". Port: "TCP/6881"
+(I) 2023-06-25T19:35:28 - Successfully listening on IP. IP: "10.8.0.28". Port: "UTP/6881"
+(N) 2023-06-25T19:42:25 - WebAPI login success. IP: ::ffff:172.18.0.1
+(N) 2023-06-25T19:42:58 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-06-25T19:42:58 - Web UI: Now listening on IP: *, port: 5080
+(N) 2023-06-25T19:43:44 - qBittorrent termination initiated
+(I) 2023-06-25T19:43:44 - UPnP/NAT-PMP support: OFF
+(N) 2023-06-25T19:43:44 - qBittorrent is now ready to exit
+(N) 2023-06-25T19:43:50 - qBittorrent v4.5.3 started
+(N) 2023-06-25T19:43:50 - Using config directory: /config/qBittorrent
+(N) 2023-06-25T19:43:50 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-06-25T19:43:52 - Peer ID: "-qB4530-"
+(I) 2023-06-25T19:43:52 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-06-25T19:43:52 - Distributed Hash Table (DHT) support: ON
+(I) 2023-06-25T19:43:52 - Local Peer Discovery support: ON
+(I) 2023-06-25T19:43:52 - Peer Exchange (PeX) support: ON
+(I) 2023-06-25T19:43:52 - Anonymous mode: OFF
+(I) 2023-06-25T19:43:52 - Encryption support: ON
+(I) 2023-06-25T19:43:52 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-06-25T19:43:52 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-06-25T19:43:52 - Successfully listening on IP. IP: "172.18.0.3". Port: "TCP/6881"
+(I) 2023-06-25T19:43:52 - Successfully listening on IP. IP: "172.18.0.3". Port: "UTP/6881"
+(W) 2023-06-25T19:43:52 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2023-06-25T19:43:52 - Using built-in Web UI.
+(N) 2023-06-25T19:43:52 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-06-25T19:43:52 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-06-25T19:43:55 - Successfully listening on IP. IP: "10.8.0.33". Port: "TCP/6881"
+(I) 2023-06-25T19:43:55 - Successfully listening on IP. IP: "10.8.0.33". Port: "UTP/6881"
+(W) 2023-06-25T19:43:57 - Couldn't download IP geolocation database file. Reason: The remote host name was not found (invalid hostname)
+(I) 2023-06-25T19:43:57 - Detected external IP. IP: "146.70.166.10"
+(N) 2023-06-25T19:44:00 - WebAPI login success. IP: ::ffff:172.18.0.1
+(I) 2023-06-25T19:44:09 - Successfully listening on IP. IP: "10.8.0.19". Port: "TCP/6881"
+(I) 2023-06-25T19:44:09 - Successfully listening on IP. IP: "10.8.0.19". Port: "UTP/6881"
+(N) 2023-06-25T19:46:25 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-06-25T20:38:54 - Successfully listening on IP. IP: "10.8.0.28". Port: "TCP/6881"
+(I) 2023-06-25T20:38:55 - Successfully listening on IP. IP: "10.8.0.28". Port: "UTP/6881"
+(I) 2023-06-25T21:13:06 - Successfully listening on IP. IP: "10.8.0.4". Port: "TCP/6881"
+(I) 2023-06-25T21:13:06 - Successfully listening on IP. IP: "10.8.0.4". Port: "UTP/6881"
+(I) 2023-06-25T21:51:12 - Successfully listening on IP. IP: "10.8.0.23". Port: "TCP/6881"
+(I) 2023-06-25T21:51:12 - Successfully listening on IP. IP: "10.8.0.23". Port: "UTP/6881"
+(I) 2023-06-25T22:07:47 - Successfully listening on IP. IP: "10.8.0.25". Port: "TCP/6881"
+(I) 2023-06-25T22:07:48 - Successfully listening on IP. IP: "10.8.0.25". Port: "UTP/6881"
+(I) 2023-06-25T22:41:08 - Successfully listening on IP. IP: "10.8.0.27". Port: "TCP/6881"
+(I) 2023-06-25T22:41:08 - Successfully listening on IP. IP: "10.8.0.27". Port: "UTP/6881"
+(I) 2023-06-25T22:57:53 - Successfully listening on IP. IP: "10.8.0.13". Port: "TCP/6881"
+(I) 2023-06-25T22:57:54 - Successfully listening on IP. IP: "10.8.0.13". Port: "UTP/6881"
+(I) 2023-06-25T23:14:10 - Successfully listening on IP. IP: "10.8.0.5". Port: "TCP/6881"
+(I) 2023-06-25T23:14:10 - Successfully listening on IP. IP: "10.8.0.5". Port: "UTP/6881"
+(I) 2023-06-26T01:05:44 - Successfully listening on IP. IP: "10.8.0.34". Port: "TCP/6881"
+(I) 2023-06-26T01:05:44 - Successfully listening on IP. IP: "10.8.0.34". Port: "UTP/6881"
+(I) 2023-06-26T01:43:07 - Successfully listening on IP. IP: "10.8.0.2". Port: "TCP/6881"
+(I) 2023-06-26T01:43:07 - Successfully listening on IP. IP: "10.8.0.2". Port: "UTP/6881"
+(I) 2023-06-26T02:10:46 - Successfully listening on IP. IP: "10.8.0.16". Port: "TCP/6881"
+(I) 2023-06-26T02:10:46 - Successfully listening on IP. IP: "10.8.0.16". Port: "UTP/6881"
+(I) 2023-06-26T02:33:04 - Successfully listening on IP. IP: "10.8.0.21". Port: "TCP/6881"
+(I) 2023-06-26T02:33:04 - Successfully listening on IP. IP: "10.8.0.21". Port: "UTP/6881"
+(I) 2023-06-26T02:53:53 - Successfully listening on IP. IP: "10.8.0.14". Port: "TCP/6881"
+(I) 2023-06-26T02:53:54 - Successfully listening on IP. IP: "10.8.0.14". Port: "UTP/6881"
+(I) 2023-06-26T03:03:15 - Successfully listening on IP. IP: "10.8.0.36". Port: "TCP/6881"
+(I) 2023-06-26T03:03:15 - Successfully listening on IP. IP: "10.8.0.36". Port: "UTP/6881"
+(I) 2023-06-26T03:10:48 - Successfully listening on IP. IP: "10.8.0.6". Port: "TCP/6881"
+(I) 2023-06-26T03:10:48 - Successfully listening on IP. IP: "10.8.0.6". Port: "UTP/6881"
+(I) 2023-06-26T03:29:39 - Successfully listening on IP. IP: "10.8.0.4". Port: "TCP/6881"
+(I) 2023-06-26T03:29:39 - Successfully listening on IP. IP: "10.8.0.4". Port: "UTP/6881"
+(I) 2023-06-26T03:47:23 - Successfully listening on IP. IP: "10.8.0.27". Port: "TCP/6881"
+(I) 2023-06-26T03:47:23 - Successfully listening on IP. IP: "10.8.0.27". Port: "UTP/6881"
+(I) 2023-06-26T04:56:02 - Successfully listening on IP. IP: "10.8.0.13". Port: "TCP/6881"
+(I) 2023-06-26T04:56:02 - Successfully listening on IP. IP: "10.8.0.13". Port: "UTP/6881"
+(I) 2023-06-26T06:56:54 - Successfully listening on IP. IP: "10.8.0.7". Port: "TCP/6881"
+(I) 2023-06-26T06:56:54 - Successfully listening on IP. IP: "10.8.0.7". Port: "UTP/6881"
+(I) 2023-06-26T07:12:53 - Successfully listening on IP. IP: "10.8.0.12". Port: "TCP/6881"
+(I) 2023-06-26T07:12:53 - Successfully listening on IP. IP: "10.8.0.12". Port: "UTP/6881"
+(I) 2023-06-26T10:00:46 - Successfully listening on IP. IP: "10.8.0.19". Port: "TCP/6881"
+(I) 2023-06-26T10:00:46 - Successfully listening on IP. IP: "10.8.0.19". Port: "UTP/6881"
+(I) 2023-06-26T11:24:25 - Successfully listening on IP. IP: "10.8.0.6". Port: "TCP/6881"
+(I) 2023-06-26T11:24:25 - Successfully listening on IP. IP: "10.8.0.6". Port: "UTP/6881"
+(I) 2023-06-26T12:50:55 - Successfully listening on IP. IP: "10.8.0.3". Port: "TCP/6881"
+(I) 2023-06-26T12:50:55 - Successfully listening on IP. IP: "10.8.0.3". Port: "UTP/6881"
+(I) 2023-06-26T22:26:44 - Successfully listening on IP. IP: "10.8.0.2". Port: "TCP/6881"
+(I) 2023-06-26T22:26:44 - Successfully listening on IP. IP: "10.8.0.2". Port: "UTP/6881"
+(I) 2023-06-27T02:11:11 - Successfully listening on IP. IP: "10.8.0.28". Port: "TCP/6881"
+(I) 2023-06-27T02:11:11 - Successfully listening on IP. IP: "10.8.0.28". Port: "UTP/6881"
+(I) 2023-06-27T02:21:26 - Successfully listening on IP. IP: "10.8.0.5". Port: "TCP/6881"
+(I) 2023-06-27T02:21:26 - Successfully listening on IP. IP: "10.8.0.5". Port: "UTP/6881"
+(I) 2023-06-27T02:37:45 - Successfully listening on IP. IP: "10.8.0.13". Port: "TCP/6881"
+(I) 2023-06-27T02:37:45 - Successfully listening on IP. IP: "10.8.0.13". Port: "UTP/6881"
+(I) 2023-06-27T03:51:44 - Successfully listening on IP. IP: "10.8.0.31". Port: "TCP/6881"
+(I) 2023-06-27T03:51:44 - Successfully listening on IP. IP: "10.8.0.31". Port: "UTP/6881"
+(I) 2023-06-27T05:28:59 - Successfully listening on IP. IP: "10.8.0.2". Port: "TCP/6881"
+(I) 2023-06-27T05:28:59 - Successfully listening on IP. IP: "10.8.0.2". Port: "UTP/6881"
+(I) 2023-06-27T06:28:03 - Successfully listening on IP. IP: "10.8.0.14". Port: "TCP/6881"
+(I) 2023-06-27T06:28:03 - Successfully listening on IP. IP: "10.8.0.14". Port: "UTP/6881"
+(I) 2023-06-27T06:47:50 - Successfully listening on IP. IP: "10.8.0.11". Port: "TCP/6881"
+(I) 2023-06-27T06:47:50 - Successfully listening on IP. IP: "10.8.0.11". Port: "UTP/6881"
+(I) 2023-06-27T07:06:21 - Successfully listening on IP. IP: "10.8.0.14". Port: "TCP/6881"
+(I) 2023-06-27T07:06:21 - Successfully listening on IP. IP: "10.8.0.14". Port: "UTP/6881"
+(I) 2023-06-27T07:24:28 - Successfully listening on IP. IP: "10.8.0.19". Port: "TCP/6881"
+(I) 2023-06-27T07:24:28 - Successfully listening on IP. IP: "10.8.0.19". Port: "UTP/6881"
+(N) 2023-06-27T07:26:20 - qBittorrent v4.5.3 started
+(N) 2023-06-27T07:26:20 - Using config directory: /config/qBittorrent
+(N) 2023-06-27T07:26:20 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-06-27T07:26:20 - Peer ID: "-qB4530-"
+(I) 2023-06-27T07:26:20 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-06-27T07:26:20 - Distributed Hash Table (DHT) support: ON
+(I) 2023-06-27T07:26:20 - Local Peer Discovery support: ON
+(I) 2023-06-27T07:26:20 - Peer Exchange (PeX) support: ON
+(I) 2023-06-27T07:26:20 - Anonymous mode: OFF
+(I) 2023-06-27T07:26:20 - Encryption support: ON
+(I) 2023-06-27T07:26:20 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-06-27T07:26:20 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-06-27T07:26:20 - Successfully listening on IP. IP: "172.18.0.3". Port: "TCP/6881"
+(I) 2023-06-27T07:26:20 - Successfully listening on IP. IP: "172.18.0.3". Port: "UTP/6881"
+(I) 2023-06-27T07:26:20 - Successfully listening on IP. IP: "10.8.0.19". Port: "TCP/6881"
+(I) 2023-06-27T07:26:20 - Successfully listening on IP. IP: "10.8.0.19". Port: "UTP/6881"
+(W) 2023-06-27T07:26:20 - Couldn't load IP geolocation database. Reason: No such file or directory
+(N) 2023-06-27T07:26:20 - Using built-in Web UI.
+(N) 2023-06-27T07:26:20 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-06-27T07:26:20 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-06-27T07:26:21 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Thu Jun 1 00:18:15 2023.
+(I) 2023-06-27T07:26:21 - Successfully updated IP geolocation database.
+(I) 2023-06-27T07:26:22 - Detected external IP. IP: "198.44.136.166"
+(I) 2023-06-27T08:00:41 - Successfully listening on IP. IP: "10.8.0.2". Port: "TCP/6881"
+(I) 2023-06-27T08:00:41 - Successfully listening on IP. IP: "10.8.0.2". Port: "UTP/6881"
+(I) 2023-06-27T08:10:57 - Successfully listening on IP. IP: "10.8.0.12". Port: "TCP/6881"
+(I) 2023-06-27T08:10:57 - Successfully listening on IP. IP: "10.8.0.12". Port: "UTP/6881"
+(I) 2023-06-27T08:30:04 - Successfully listening on IP. IP: "10.8.0.17". Port: "TCP/6881"
+(I) 2023-06-27T08:30:04 - Successfully listening on IP. IP: "10.8.0.17". Port: "UTP/6881"
+(I) 2023-06-27T09:57:57 - Successfully listening on IP. IP: "10.8.0.11". Port: "TCP/6881"
+(I) 2023-06-27T09:57:58 - Successfully listening on IP. IP: "10.8.0.11". Port: "UTP/6881"
+(I) 2023-06-27T10:00:18 - Successfully listening on IP. IP: "10.8.0.5". Port: "TCP/6881"
+(I) 2023-06-27T10:00:18 - Successfully listening on IP. IP: "10.8.0.5". Port: "UTP/6881"
+(I) 2023-06-27T10:22:24 - Successfully listening on IP. IP: "10.8.0.7". Port: "TCP/6881"
+(I) 2023-06-27T10:22:24 - Successfully listening on IP. IP: "10.8.0.7". Port: "UTP/6881"
+(I) 2023-06-27T10:40:31 - Successfully listening on IP. IP: "10.8.0.5". Port: "TCP/6881"
+(I) 2023-06-27T10:40:31 - Successfully listening on IP. IP: "10.8.0.5". Port: "UTP/6881"
+(I) 2023-06-27T12:02:44 - Successfully listening on IP. IP: "10.8.0.10". Port: "TCP/6881"
+(I) 2023-06-27T12:02:44 - Successfully listening on IP. IP: "10.8.0.10". Port: "UTP/6881"
+(N) 2023-07-09T16:54:27 - qBittorrent v4.5.3 started
+(N) 2023-07-09T16:54:27 - Using config directory: /config/qBittorrent
+(N) 2023-07-09T16:54:27 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-07-09T16:54:28 - Peer ID: "-qB4530-"
+(I) 2023-07-09T16:54:28 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-07-09T16:54:28 - Distributed Hash Table (DHT) support: ON
+(I) 2023-07-09T16:54:28 - Local Peer Discovery support: ON
+(I) 2023-07-09T16:54:28 - Peer Exchange (PeX) support: ON
+(I) 2023-07-09T16:54:28 - Anonymous mode: OFF
+(I) 2023-07-09T16:54:28 - Encryption support: ON
+(I) 2023-07-09T16:54:28 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-07-09T16:54:28 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-07-09T16:54:28 - Successfully listening on IP. IP: "172.18.0.2". Port: "TCP/6881"
+(I) 2023-07-09T16:54:28 - Successfully listening on IP. IP: "172.18.0.2". Port: "UTP/6881"
+(I) 2023-07-09T16:54:28 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Thu Jun 1 00:18:15 2023.
+(N) 2023-07-09T16:54:28 - Using built-in Web UI.
+(N) 2023-07-09T16:54:28 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-07-09T16:54:28 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-07-09T16:54:30 - Successfully listening on IP. IP: "10.8.0.22". Port: "TCP/6881"
+(I) 2023-07-09T16:54:30 - Successfully listening on IP. IP: "10.8.0.22". Port: "UTP/6881"
+(I) 2023-07-09T16:54:31 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Jul 1 08:07:53 2023.
+(I) 2023-07-09T16:54:32 - Successfully updated IP geolocation database.
+(I) 2023-07-09T16:54:33 - Detected external IP. IP: "198.44.136.213"
+(I) 2023-07-09T16:54:45 - Successfully listening on IP. IP: "10.8.0.10". Port: "TCP/6881"
+(I) 2023-07-09T16:54:45 - Successfully listening on IP. IP: "10.8.0.10". Port: "UTP/6881"
+(N) 2023-07-09T17:00:37 - WebAPI login success. IP: ::ffff:172.18.0.1
+(N) 2023-07-09T17:37:41 - qBittorrent termination initiated
+(I) 2023-07-09T17:37:41 - UPnP/NAT-PMP support: OFF
+(N) 2023-07-09T17:37:41 - qBittorrent is now ready to exit
+(N) 2023-07-09T17:37:48 - qBittorrent v4.5.3 started
+(N) 2023-07-09T17:37:48 - Using config directory: /config/qBittorrent
+(N) 2023-07-09T17:37:48 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-07-09T17:37:48 - Peer ID: "-qB4530-"
+(I) 2023-07-09T17:37:48 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-07-09T17:37:48 - Distributed Hash Table (DHT) support: ON
+(I) 2023-07-09T17:37:48 - Local Peer Discovery support: ON
+(I) 2023-07-09T17:37:48 - Peer Exchange (PeX) support: ON
+(I) 2023-07-09T17:37:48 - Anonymous mode: OFF
+(I) 2023-07-09T17:37:48 - Encryption support: ON
+(I) 2023-07-09T17:37:48 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-07-09T17:37:48 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-07-09T17:37:48 - Successfully listening on IP. IP: "172.18.0.3". Port: "TCP/6881"
+(I) 2023-07-09T17:37:48 - Successfully listening on IP. IP: "172.18.0.3". Port: "UTP/6881"
+(I) 2023-07-09T17:37:49 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Jul 1 08:07:53 2023.
+(N) 2023-07-09T17:37:49 - Using built-in Web UI.
+(N) 2023-07-09T17:37:49 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-07-09T17:37:49 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-07-09T17:37:52 - Successfully listening on IP. IP: "10.8.0.14". Port: "TCP/6881"
+(I) 2023-07-09T17:37:52 - Successfully listening on IP. IP: "10.8.0.14". Port: "UTP/6881"
+(I) 2023-07-09T17:37:54 - Detected external IP. IP: "146.70.171.217"
+(I) 2023-07-09T17:38:17 - Successfully listening on IP. IP: "10.8.0.32". Port: "TCP/6881"
+(I) 2023-07-09T17:38:17 - Successfully listening on IP. IP: "10.8.0.32". Port: "UTP/6881"
+(N) 2023-07-09T17:48:47 - WebAPI login success. IP: ::ffff:172.18.0.1
+(N) 2023-07-09T17:49:55 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-07-09T17:59:25 - Added new torrent. Torrent: "The.Batman.2022.4K.HDR.DV.2160p.BDRemux Ita Eng x265-NAHOM"
+(I) 2023-07-09T17:59:26 - Detected external IP. IP: "198.44.136.145"
+(N) 2023-07-09T18:01:35 - Removed torrent and deleted its content. Torrent: "The.Batman.2022.4K.HDR.DV.2160p.BDRemux Ita Eng x265-NAHOM"
+(N) 2023-07-09T18:02:14 - Added new torrent. Torrent: "The Batman (2022) 4K.UHDremux.2160p.HDR10.TrueHD 7.1.Subs][ES-EN"
+(N) 2023-07-09T18:03:00 - Torrent paused. Torrent: "The Batman (2022) 4K.UHDremux.2160p.HDR10.TrueHD 7.1.Subs][ES-EN"
+(I) 2023-07-09T18:47:06 - Successfully listening on IP. IP: "10.8.0.11". Port: "TCP/6881"
+(I) 2023-07-09T18:47:06 - Successfully listening on IP. IP: "10.8.0.11". Port: "UTP/6881"
+(N) 2023-07-09T20:16:09 - Removed torrent and deleted its content. Torrent: "The Batman (2022) 4K.UHDremux.2160p.HDR10.TrueHD 7.1.Subs][ES-EN"
+(N) 2023-07-09T20:20:32 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-07-09T20:22:34 - Added new torrent. Torrent: "The.Batman.2022.2160p.UHD.BluRay.x265-SURCODE"
+(I) 2023-07-09T20:22:35 - Detected external IP. IP: "146.70.185.100"
+(N) 2023-07-09T20:23:38 - Torrent paused. Torrent: "The.Batman.2022.2160p.UHD.BluRay.x265-SURCODE"
+(N) 2023-07-09T20:23:42 - Removed torrent and deleted its content. Torrent: "The.Batman.2022.2160p.UHD.BluRay.x265-SURCODE"
+(I) 2023-07-09T21:17:06 - Successfully listening on IP. IP: "10.8.0.30". Port: "TCP/6881"
+(I) 2023-07-09T21:17:06 - Successfully listening on IP. IP: "10.8.0.30". Port: "UTP/6881"
+(N) 2023-07-09T23:09:52 - qBittorrent termination initiated
+(I) 2023-07-09T23:09:52 - UPnP/NAT-PMP support: OFF
+(N) 2023-07-09T23:09:53 - qBittorrent is now ready to exit
+(N) 2023-07-09T23:10:00 - qBittorrent v4.5.3 started
+(N) 2023-07-09T23:10:00 - Using config directory: /config/qBittorrent
+(N) 2023-07-09T23:10:00 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-07-09T23:10:01 - Peer ID: "-qB4530-"
+(I) 2023-07-09T23:10:01 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-07-09T23:10:01 - Distributed Hash Table (DHT) support: ON
+(I) 2023-07-09T23:10:01 - Local Peer Discovery support: ON
+(I) 2023-07-09T23:10:01 - Peer Exchange (PeX) support: ON
+(I) 2023-07-09T23:10:01 - Anonymous mode: OFF
+(I) 2023-07-09T23:10:01 - Encryption support: ON
+(I) 2023-07-09T23:10:01 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-07-09T23:10:01 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-07-09T23:10:01 - Successfully listening on IP. IP: "172.18.0.2". Port: "TCP/6881"
+(I) 2023-07-09T23:10:01 - Successfully listening on IP. IP: "172.18.0.2". Port: "UTP/6881"
+(I) 2023-07-09T23:10:01 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Jul 1 08:07:53 2023.
+(N) 2023-07-09T23:10:01 - Using built-in Web UI.
+(N) 2023-07-09T23:10:01 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-07-09T23:10:01 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-07-09T23:10:03 - Successfully listening on IP. IP: "10.8.0.14". Port: "TCP/6881"
+(I) 2023-07-09T23:10:03 - Successfully listening on IP. IP: "10.8.0.14". Port: "UTP/6881"
+(I) 2023-07-09T23:10:03 - Detected external IP. IP: "198.44.136.142"
+(N) 2023-07-09T23:10:14 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-07-09T23:10:14 - qBittorrent termination initiated
+(I) 2023-07-09T23:10:14 - UPnP/NAT-PMP support: OFF
+(N) 2023-07-09T23:10:14 - qBittorrent is now ready to exit
+(N) 2023-07-09T23:10:26 - qBittorrent v4.5.3 started
+(N) 2023-07-09T23:10:26 - Using config directory: /config/qBittorrent
+(N) 2023-07-09T23:10:26 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-07-09T23:10:27 - Peer ID: "-qB4530-"
+(I) 2023-07-09T23:10:27 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-07-09T23:10:27 - Distributed Hash Table (DHT) support: ON
+(I) 2023-07-09T23:10:27 - Local Peer Discovery support: ON
+(I) 2023-07-09T23:10:27 - Peer Exchange (PeX) support: ON
+(I) 2023-07-09T23:10:27 - Anonymous mode: OFF
+(I) 2023-07-09T23:10:27 - Encryption support: ON
+(I) 2023-07-09T23:10:27 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-07-09T23:10:27 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-07-09T23:10:27 - Successfully listening on IP. IP: "172.18.0.2". Port: "TCP/6881"
+(I) 2023-07-09T23:10:27 - Successfully listening on IP. IP: "172.18.0.2". Port: "UTP/6881"
+(I) 2023-07-09T23:10:27 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Jul 1 08:07:53 2023.
+(N) 2023-07-09T23:10:27 - Using built-in Web UI.
+(N) 2023-07-09T23:10:27 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-07-09T23:10:27 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-07-09T23:10:30 - Successfully listening on IP. IP: "10.8.0.37". Port: "TCP/6881"
+(I) 2023-07-09T23:10:30 - Successfully listening on IP. IP: "10.8.0.37". Port: "UTP/6881"
+(I) 2023-07-09T23:10:32 - Detected external IP. IP: "198.44.136.169"
+(N) 2023-07-09T23:10:37 - WebAPI login success. IP: ::ffff:127.0.0.1
+(I) 2023-07-09T23:10:43 - Successfully listening on IP. IP: "10.8.0.26". Port: "TCP/6881"
+(I) 2023-07-09T23:10:43 - Successfully listening on IP. IP: "10.8.0.26". Port: "UTP/6881"
+(I) 2023-07-10T00:08:15 - Successfully listening on IP. IP: "10.8.0.25". Port: "TCP/6881"
+(I) 2023-07-10T00:08:15 - Successfully listening on IP. IP: "10.8.0.25". Port: "UTP/6881"
+(I) 2023-07-10T00:22:09 - Successfully listening on IP. IP: "10.8.0.17". Port: "TCP/6881"
+(I) 2023-07-10T00:22:09 - Successfully listening on IP. IP: "10.8.0.17". Port: "UTP/6881"
+(N) 2023-07-10T01:13:11 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-07-10T01:14:25 - Added new torrent. Torrent: "Secret.Invasion.S01E01.Resurrection.2160p.DSNP.WEB-DL.DV.HDR.MULTi.DD+5.1.Atmos.H.265-FLUX.mkv"
+(N) 2023-07-10T01:14:25 - Added new torrent. Torrent: "Secret Invasion S01E03 Betrayed 2160p DSNP WEB-DL DDP5 1 Atmos DV H 265-FLUX"
+(I) 2023-07-10T01:14:26 - Detected external IP. IP: "198.44.136.215"
+(N) 2023-07-10T01:14:37 - Added new torrent. Torrent: "Secret.Invasion.S01E02.Promises.2160p.DSNP.WEB-DL.DV.HDR.MULTi.DD+5.1.Atmos.H.265-FLUX.mkv"
+(N) 2023-07-10T01:14:45 - WebAPI login success. IP: ::ffff:172.18.0.1
+(N) 2023-07-10T01:14:55 - Torrent paused. Torrent: "Secret.Invasion.S01E01.Resurrection.2160p.DSNP.WEB-DL.DV.HDR.MULTi.DD+5.1.Atmos.H.265-FLUX.mkv"
+(N) 2023-07-10T01:14:55 - Torrent paused. Torrent: "Secret Invasion S01E03 Betrayed 2160p DSNP WEB-DL DDP5 1 Atmos DV H 265-FLUX"
+(N) 2023-07-10T01:14:55 - Torrent paused. Torrent: "Secret.Invasion.S01E02.Promises.2160p.DSNP.WEB-DL.DV.HDR.MULTi.DD+5.1.Atmos.H.265-FLUX.mkv"
+(N) 2023-07-10T01:20:27 - Removed torrent and deleted its content. Torrent: "Secret.Invasion.S01E01.Resurrection.2160p.DSNP.WEB-DL.DV.HDR.MULTi.DD+5.1.Atmos.H.265-FLUX.mkv"
+(N) 2023-07-10T01:20:27 - Removed torrent and deleted its content. Torrent: "Secret.Invasion.S01E02.Promises.2160p.DSNP.WEB-DL.DV.HDR.MULTi.DD+5.1.Atmos.H.265-FLUX.mkv"
+(N) 2023-07-10T01:20:27 - Removed torrent and deleted its content. Torrent: "Secret Invasion S01E03 Betrayed 2160p DSNP WEB-DL DDP5 1 Atmos DV H 265-FLUX"
+(N) 2023-07-10T01:35:19 - qBittorrent termination initiated
+(I) 2023-07-10T01:35:20 - UPnP/NAT-PMP support: OFF
+(N) 2023-07-10T01:35:20 - qBittorrent is now ready to exit
+(N) 2023-07-10T01:35:33 - qBittorrent v4.5.3 started
+(N) 2023-07-10T01:35:33 - Using config directory: /config/qBittorrent
+(N) 2023-07-10T01:35:33 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-07-10T01:35:33 - Peer ID: "-qB4530-"
+(I) 2023-07-10T01:35:33 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-07-10T01:35:33 - Distributed Hash Table (DHT) support: ON
+(I) 2023-07-10T01:35:33 - Local Peer Discovery support: ON
+(I) 2023-07-10T01:35:33 - Peer Exchange (PeX) support: ON
+(I) 2023-07-10T01:35:33 - Anonymous mode: OFF
+(I) 2023-07-10T01:35:33 - Encryption support: ON
+(I) 2023-07-10T01:35:33 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-07-10T01:35:33 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-07-10T01:35:33 - Successfully listening on IP. IP: "172.18.0.2". Port: "TCP/6881"
+(I) 2023-07-10T01:35:33 - Successfully listening on IP. IP: "172.18.0.2". Port: "UTP/6881"
+(I) 2023-07-10T01:35:33 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Jul 1 08:07:53 2023.
+(N) 2023-07-10T01:35:33 - Using built-in Web UI.
+(N) 2023-07-10T01:35:33 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-07-10T01:35:33 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-07-10T01:35:37 - Successfully listening on IP. IP: "10.8.0.37". Port: "TCP/6881"
+(I) 2023-07-10T01:35:38 - Successfully listening on IP. IP: "10.8.0.37". Port: "UTP/6881"
+(I) 2023-07-10T01:35:38 - Detected external IP. IP: "198.44.136.169"
+(N) 2023-07-10T01:36:08 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-07-10T01:36:09 - WebAPI login success. IP: ::ffff:127.0.0.1
+(I) 2023-07-10T01:36:09 - Successfully listening on IP. IP: "10.8.0.33". Port: "TCP/6881"
+(I) 2023-07-10T01:36:09 - Successfully listening on IP. IP: "10.8.0.33". Port: "UTP/6881"
+(I) 2023-07-10T01:36:20 - Successfully listening on IP. IP: "10.8.0.9". Port: "TCP/6881"
+(I) 2023-07-10T01:36:20 - Successfully listening on IP. IP: "10.8.0.9". Port: "UTP/6881"
+(I) 2023-07-10T02:54:55 - Successfully listening on IP. IP: "10.8.0.28". Port: "TCP/6881"
+(I) 2023-07-10T02:54:55 - Successfully listening on IP. IP: "10.8.0.28". Port: "UTP/6881"
+(I) 2023-07-10T04:17:22 - Successfully listening on IP. IP: "10.8.0.26". Port: "TCP/6881"
+(I) 2023-07-10T04:17:22 - Successfully listening on IP. IP: "10.8.0.26". Port: "UTP/6881"
+(I) 2023-07-10T04:57:56 - Successfully listening on IP. IP: "10.8.0.21". Port: "TCP/6881"
+(I) 2023-07-10T04:57:56 - Successfully listening on IP. IP: "10.8.0.21". Port: "UTP/6881"
+(I) 2023-07-10T04:58:06 - Successfully listening on IP. IP: "10.8.0.9". Port: "TCP/6881"
+(I) 2023-07-10T04:58:06 - Successfully listening on IP. IP: "10.8.0.9". Port: "UTP/6881"
+(I) 2023-07-10T05:14:43 - Successfully listening on IP. IP: "10.8.0.21". Port: "TCP/6881"
+(I) 2023-07-10T05:14:43 - Successfully listening on IP. IP: "10.8.0.21". Port: "UTP/6881"
+(I) 2023-07-10T05:37:06 - Successfully listening on IP. IP: "10.8.0.15". Port: "TCP/6881"
+(I) 2023-07-10T05:37:06 - Successfully listening on IP. IP: "10.8.0.15". Port: "UTP/6881"
+(I) 2023-07-10T06:03:15 - Successfully listening on IP. IP: "10.8.0.22". Port: "TCP/6881"
+(I) 2023-07-10T06:03:15 - Successfully listening on IP. IP: "10.8.0.22". Port: "UTP/6881"
+(I) 2023-07-10T06:21:55 - Successfully listening on IP. IP: "10.8.0.8". Port: "TCP/6881"
+(I) 2023-07-10T06:21:55 - Successfully listening on IP. IP: "10.8.0.8". Port: "UTP/6881"
+(N) 2023-08-06T21:03:32 - qBittorrent v4.5.3 started
+(N) 2023-08-06T21:03:32 - Using config directory: /config/qBittorrent
+(N) 2023-08-06T21:03:32 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-08-06T21:03:32 - Peer ID: "-qB4530-"
+(I) 2023-08-06T21:03:32 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-08-06T21:03:32 - Distributed Hash Table (DHT) support: ON
+(I) 2023-08-06T21:03:32 - Local Peer Discovery support: ON
+(I) 2023-08-06T21:03:32 - Peer Exchange (PeX) support: ON
+(I) 2023-08-06T21:03:32 - Anonymous mode: OFF
+(I) 2023-08-06T21:03:32 - Encryption support: ON
+(I) 2023-08-06T21:03:32 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Sat Jul 1 08:07:53 2023.
+(N) 2023-08-06T21:03:32 - Using built-in Web UI.
+(N) 2023-08-06T21:03:32 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-08-06T21:03:32 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-08-06T21:03:32 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-08-06T21:03:32 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-08-06T21:03:32 - Successfully listening on IP. IP: "172.18.0.2". Port: "TCP/6881"
+(I) 2023-08-06T21:03:32 - Successfully listening on IP. IP: "172.18.0.2". Port: "UTP/6881"
+(I) 2023-08-06T21:03:34 - Successfully listening on IP. IP: "10.8.0.25". Port: "TCP/6881"
+(I) 2023-08-06T21:03:34 - Successfully listening on IP. IP: "10.8.0.25". Port: "UTP/6881"
+(I) 2023-08-06T21:03:36 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Aug 1 00:15:41 2023.
+(I) 2023-08-06T21:03:36 - Successfully updated IP geolocation database.
+(I) 2023-08-06T21:03:38 - Detected external IP. IP: "198.44.136.182"
+(N) 2023-08-06T21:03:43 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-08-06T21:03:47 - WebAPI login success. IP: ::ffff:127.0.0.1
+(I) 2023-08-06T21:03:48 - Successfully listening on IP. IP: "10.8.0.28". Port: "TCP/6881"
+(I) 2023-08-06T21:03:48 - Successfully listening on IP. IP: "10.8.0.28". Port: "UTP/6881"
+(N) 2023-08-06T21:25:52 - qBittorrent termination initiated
+(I) 2023-08-06T21:25:52 - UPnP/NAT-PMP support: OFF
+(N) 2023-08-06T21:25:52 - qBittorrent is now ready to exit
+(N) 2023-08-06T21:26:01 - qBittorrent v4.5.3 started
+(N) 2023-08-06T21:26:01 - Using config directory: /config/qBittorrent
+(N) 2023-08-06T21:26:01 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-08-06T21:26:01 - Peer ID: "-qB4530-"
+(I) 2023-08-06T21:26:01 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-08-06T21:26:01 - Distributed Hash Table (DHT) support: ON
+(I) 2023-08-06T21:26:01 - Local Peer Discovery support: ON
+(I) 2023-08-06T21:26:01 - Peer Exchange (PeX) support: ON
+(I) 2023-08-06T21:26:01 - Anonymous mode: OFF
+(I) 2023-08-06T21:26:01 - Encryption support: ON
+(I) 2023-08-06T21:26:01 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-08-06T21:26:01 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-08-06T21:26:01 - Successfully listening on IP. IP: "172.18.0.4". Port: "TCP/6881"
+(I) 2023-08-06T21:26:01 - Successfully listening on IP. IP: "172.18.0.4". Port: "UTP/6881"
+(I) 2023-08-06T21:26:01 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Aug 1 00:15:41 2023.
+(N) 2023-08-06T21:26:01 - Using built-in Web UI.
+(N) 2023-08-06T21:26:01 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-08-06T21:26:01 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-08-06T21:26:02 - Successfully listening on IP. IP: "10.8.0.17". Port: "TCP/6881"
+(I) 2023-08-06T21:26:02 - Successfully listening on IP. IP: "10.8.0.17". Port: "UTP/6881"
+(I) 2023-08-06T21:26:04 - Detected external IP. IP: "146.70.168.10"
+(N) 2023-08-06T21:26:11 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-08-06T21:26:13 - WebAPI login success. IP: ::ffff:127.0.0.1
+(I) 2023-08-06T21:26:21 - Successfully listening on IP. IP: "10.8.0.25". Port: "TCP/6881"
+(I) 2023-08-06T21:26:21 - Successfully listening on IP. IP: "10.8.0.25". Port: "UTP/6881"
+(N) 2023-08-08T02:07:26 - qBittorrent termination initiated
+(I) 2023-08-08T02:07:26 - UPnP/NAT-PMP support: OFF
+(N) 2023-08-08T02:07:26 - qBittorrent is now ready to exit
+(N) 2023-08-08T02:07:34 - qBittorrent v4.5.3 started
+(N) 2023-08-08T02:07:34 - Using config directory: /config/qBittorrent
+(N) 2023-08-08T02:07:34 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-08-08T02:07:34 - Peer ID: "-qB4530-"
+(I) 2023-08-08T02:07:34 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-08-08T02:07:34 - Distributed Hash Table (DHT) support: ON
+(I) 2023-08-08T02:07:34 - Local Peer Discovery support: ON
+(I) 2023-08-08T02:07:34 - Peer Exchange (PeX) support: ON
+(I) 2023-08-08T02:07:34 - Anonymous mode: OFF
+(I) 2023-08-08T02:07:34 - Encryption support: ON
+(I) 2023-08-08T02:07:34 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-08-08T02:07:34 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-08-08T02:07:34 - Successfully listening on IP. IP: "172.18.0.2". Port: "TCP/6881"
+(I) 2023-08-08T02:07:34 - Successfully listening on IP. IP: "172.18.0.2". Port: "UTP/6881"
+(I) 2023-08-08T02:07:34 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Aug 1 00:15:41 2023.
+(N) 2023-08-08T02:07:34 - Using built-in Web UI.
+(N) 2023-08-08T02:07:34 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-08-08T02:07:34 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-08-08T02:07:37 - Successfully listening on IP. IP: "10.8.0.16". Port: "TCP/6881"
+(I) 2023-08-08T02:07:37 - Successfully listening on IP. IP: "10.8.0.16". Port: "UTP/6881"
+(I) 2023-08-08T02:07:40 - Detected external IP. IP: "146.70.166.100"
+(N) 2023-08-08T02:07:44 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-08-08T02:07:47 - WebAPI login success. IP: ::ffff:127.0.0.1
+(I) 2023-08-08T02:07:52 - Successfully listening on IP. IP: "10.8.0.20". Port: "TCP/6881"
+(I) 2023-08-08T02:07:52 - Successfully listening on IP. IP: "10.8.0.20". Port: "UTP/6881"
+(N) 2023-08-08T02:18:42 - qBittorrent termination initiated
+(I) 2023-08-08T02:18:42 - UPnP/NAT-PMP support: OFF
+(N) 2023-08-08T02:18:42 - qBittorrent is now ready to exit
+(N) 2023-08-08T02:18:51 - qBittorrent v4.5.3 started
+(N) 2023-08-08T02:18:51 - Using config directory: /config/qBittorrent
+(N) 2023-08-08T02:18:51 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-08-08T02:18:52 - Peer ID: "-qB4530-"
+(I) 2023-08-08T02:18:52 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-08-08T02:18:52 - Distributed Hash Table (DHT) support: ON
+(I) 2023-08-08T02:18:52 - Local Peer Discovery support: ON
+(I) 2023-08-08T02:18:52 - Peer Exchange (PeX) support: ON
+(I) 2023-08-08T02:18:52 - Anonymous mode: OFF
+(I) 2023-08-08T02:18:52 - Encryption support: ON
+(I) 2023-08-08T02:18:52 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-08-08T02:18:52 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-08-08T02:18:52 - Successfully listening on IP. IP: "172.18.0.3". Port: "TCP/6881"
+(I) 2023-08-08T02:18:52 - Successfully listening on IP. IP: "172.18.0.3". Port: "UTP/6881"
+(I) 2023-08-08T02:18:52 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Aug 1 00:15:41 2023.
+(N) 2023-08-08T02:18:52 - Using built-in Web UI.
+(N) 2023-08-08T02:18:52 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-08-08T02:18:52 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-08-08T02:18:54 - Successfully listening on IP. IP: "10.8.0.18". Port: "TCP/6881"
+(I) 2023-08-08T02:18:54 - Successfully listening on IP. IP: "10.8.0.18". Port: "UTP/6881"
+(I) 2023-08-08T02:18:55 - Detected external IP. IP: "146.70.166.10"
+(N) 2023-08-08T02:19:03 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-08-08T02:19:04 - WebAPI login success. IP: ::ffff:127.0.0.1
+(I) 2023-08-08T02:19:10 - Successfully listening on IP. IP: "10.8.0.15". Port: "TCP/6881"
+(I) 2023-08-08T02:19:10 - Successfully listening on IP. IP: "10.8.0.15". Port: "UTP/6881"
+(N) 2023-08-08T02:39:46 - qBittorrent termination initiated
+(I) 2023-08-08T02:39:46 - UPnP/NAT-PMP support: OFF
+(N) 2023-08-08T02:39:46 - qBittorrent is now ready to exit
+(N) 2023-08-08T02:39:54 - qBittorrent v4.5.3 started
+(N) 2023-08-08T02:39:54 - Using config directory: /config/qBittorrent
+(N) 2023-08-08T02:39:54 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-08-08T02:39:54 - Peer ID: "-qB4530-"
+(I) 2023-08-08T02:39:54 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-08-08T02:39:54 - Distributed Hash Table (DHT) support: ON
+(I) 2023-08-08T02:39:54 - Local Peer Discovery support: ON
+(I) 2023-08-08T02:39:54 - Peer Exchange (PeX) support: ON
+(I) 2023-08-08T02:39:54 - Anonymous mode: OFF
+(I) 2023-08-08T02:39:54 - Encryption support: ON
+(I) 2023-08-08T02:39:55 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-08-08T02:39:55 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-08-08T02:39:55 - Successfully listening on IP. IP: "172.18.0.2". Port: "TCP/6881"
+(I) 2023-08-08T02:39:55 - Successfully listening on IP. IP: "172.18.0.2". Port: "UTP/6881"
+(I) 2023-08-08T02:39:55 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Aug 1 00:15:41 2023.
+(N) 2023-08-08T02:39:55 - Using built-in Web UI.
+(N) 2023-08-08T02:39:55 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-08-08T02:39:55 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-08-08T02:39:57 - Successfully listening on IP. IP: "10.8.0.16". Port: "TCP/6881"
+(I) 2023-08-08T02:39:57 - Successfully listening on IP. IP: "10.8.0.16". Port: "UTP/6881"
+(I) 2023-08-08T02:39:58 - Detected external IP. IP: "146.70.166.100"
+(N) 2023-08-08T02:40:06 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-08-08T02:40:08 - WebAPI login success. IP: ::ffff:127.0.0.1
+(I) 2023-08-08T02:40:12 - Successfully listening on IP. IP: "10.8.0.6". Port: "TCP/6881"
+(I) 2023-08-08T02:40:12 - Successfully listening on IP. IP: "10.8.0.6". Port: "UTP/6881"
+(N) 2023-08-08T02:41:49 - qBittorrent termination initiated
+(I) 2023-08-08T02:41:49 - UPnP/NAT-PMP support: OFF
+(N) 2023-08-08T02:41:49 - qBittorrent is now ready to exit
+(N) 2023-08-08T02:42:01 - qBittorrent v4.5.3 started
+(N) 2023-08-08T02:42:01 - Using config directory: /config/qBittorrent
+(N) 2023-08-08T02:42:01 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-08-08T02:42:01 - Peer ID: "-qB4530-"
+(I) 2023-08-08T02:42:01 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-08-08T02:42:01 - Distributed Hash Table (DHT) support: ON
+(I) 2023-08-08T02:42:01 - Local Peer Discovery support: ON
+(I) 2023-08-08T02:42:01 - Peer Exchange (PeX) support: ON
+(I) 2023-08-08T02:42:01 - Anonymous mode: OFF
+(I) 2023-08-08T02:42:01 - Encryption support: ON
+(I) 2023-08-08T02:42:01 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Aug 1 00:15:41 2023.
+(N) 2023-08-08T02:42:01 - Using built-in Web UI.
+(N) 2023-08-08T02:42:01 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-08-08T02:42:01 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-08-08T02:42:01 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-08-08T02:42:01 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-08-08T02:42:01 - Successfully listening on IP. IP: "172.18.0.4". Port: "TCP/6881"
+(I) 2023-08-08T02:42:01 - Successfully listening on IP. IP: "172.18.0.4". Port: "UTP/6881"
+(I) 2023-08-08T02:42:03 - Successfully listening on IP. IP: "10.8.0.12". Port: "TCP/6881"
+(I) 2023-08-08T02:42:03 - Successfully listening on IP. IP: "10.8.0.12". Port: "UTP/6881"
+(I) 2023-08-08T02:42:05 - Detected external IP. IP: "146.70.166.100"
+(N) 2023-08-08T02:42:13 - WebAPI login success. IP: ::ffff:127.0.0.1
+(N) 2023-08-08T02:42:15 - WebAPI login success. IP: ::ffff:127.0.0.1
+(I) 2023-08-08T02:42:17 - Successfully listening on IP. IP: "10.8.0.18". Port: "TCP/6881"
+(I) 2023-08-08T02:42:17 - Successfully listening on IP. IP: "10.8.0.18". Port: "UTP/6881"
+(W) 2023-08-08T02:51:58 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:192.168.1.164, username: admin
+(N) 2023-08-08T02:52:01 - WebAPI login success. IP: ::ffff:192.168.1.164
+(N) 2023-08-08T02:55:16 - Web UI: Now listening on IP: *, port: 5080
+(N) 2023-08-08T03:10:21 - qBittorrent termination initiated
+(I) 2023-08-08T03:10:21 - UPnP/NAT-PMP support: OFF
+(N) 2023-08-08T03:10:21 - qBittorrent is now ready to exit
+(N) 2023-08-08T03:10:29 - qBittorrent v4.5.3 started
+(N) 2023-08-08T03:10:29 - Using config directory: /config/qBittorrent
+(N) 2023-08-08T03:10:29 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-08-08T03:10:30 - Peer ID: "-qB4530-"
+(I) 2023-08-08T03:10:30 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-08-08T03:10:30 - Distributed Hash Table (DHT) support: ON
+(I) 2023-08-08T03:10:30 - Local Peer Discovery support: ON
+(I) 2023-08-08T03:10:30 - Peer Exchange (PeX) support: ON
+(I) 2023-08-08T03:10:30 - Anonymous mode: OFF
+(I) 2023-08-08T03:10:30 - Encryption support: ON
+(I) 2023-08-08T03:10:30 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-08-08T03:10:30 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-08-08T03:10:30 - Successfully listening on IP. IP: "172.18.0.2". Port: "TCP/6881"
+(I) 2023-08-08T03:10:30 - Successfully listening on IP. IP: "172.18.0.2". Port: "UTP/6881"
+(I) 2023-08-08T03:10:30 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Aug 1 00:15:41 2023.
+(N) 2023-08-08T03:10:30 - Using built-in Web UI.
+(N) 2023-08-08T03:10:30 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-08-08T03:10:30 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-08-08T03:10:31 - Successfully listening on IP. IP: "10.8.0.14". Port: "TCP/6881"
+(I) 2023-08-08T03:10:31 - Successfully listening on IP. IP: "10.8.0.14". Port: "UTP/6881"
+(I) 2023-08-08T03:10:33 - Detected external IP. IP: "146.70.168.10"
+(W) 2023-08-08T03:10:41 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:10:42 - WebAPI login failure. Reason: invalid credentials, attempt count: 2, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:10:42 - WebAPI login failure. Reason: invalid credentials, attempt count: 3, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:10:42 - WebAPI login failure. Reason: invalid credentials, attempt count: 4, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:10:43 - WebAPI login failure. Reason: invalid credentials, attempt count: 5, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:10:43 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:10:44 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:10:44 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:10:45 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:11:09 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:11:10 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:11:11 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:11:11 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(N) 2023-08-08T03:12:06 - WebAPI login success. IP: ::ffff:192.168.1.164
+(W) 2023-08-08T03:12:39 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:12:39 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:12:41 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:12:41 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:14:09 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:14:09 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:14:11 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:14:11 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:15:39 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:15:40 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:15:41 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:15:41 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(N) 2023-08-08T03:15:54 - qBittorrent termination initiated
+(I) 2023-08-08T03:15:54 - UPnP/NAT-PMP support: OFF
+(N) 2023-08-08T03:15:54 - qBittorrent is now ready to exit
+(N) 2023-08-08T03:16:01 - qBittorrent v4.5.3 started
+(N) 2023-08-08T03:16:01 - Using config directory: /config/qBittorrent
+(N) 2023-08-08T03:16:01 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-08-08T03:16:01 - Peer ID: "-qB4530-"
+(I) 2023-08-08T03:16:01 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-08-08T03:16:01 - Distributed Hash Table (DHT) support: ON
+(I) 2023-08-08T03:16:01 - Local Peer Discovery support: ON
+(I) 2023-08-08T03:16:01 - Peer Exchange (PeX) support: ON
+(I) 2023-08-08T03:16:01 - Anonymous mode: OFF
+(I) 2023-08-08T03:16:01 - Encryption support: ON
+(I) 2023-08-08T03:16:01 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-08-08T03:16:01 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-08-08T03:16:01 - Successfully listening on IP. IP: "172.18.0.3". Port: "TCP/6881"
+(I) 2023-08-08T03:16:01 - Successfully listening on IP. IP: "172.18.0.3". Port: "UTP/6881"
+(I) 2023-08-08T03:16:01 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Aug 1 00:15:41 2023.
+(N) 2023-08-08T03:16:01 - Using built-in Web UI.
+(N) 2023-08-08T03:16:01 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-08-08T03:16:01 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-08-08T03:16:03 - Successfully listening on IP. IP: "10.8.0.18". Port: "TCP/6881"
+(I) 2023-08-08T03:16:03 - Successfully listening on IP. IP: "10.8.0.18". Port: "UTP/6881"
+(I) 2023-08-08T03:16:05 - Detected external IP. IP: "146.70.166.10"
+(W) 2023-08-08T03:16:12 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:16:13 - WebAPI login failure. Reason: invalid credentials, attempt count: 2, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:16:13 - WebAPI login failure. Reason: invalid credentials, attempt count: 3, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:16:14 - WebAPI login failure. Reason: invalid credentials, attempt count: 4, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:16:15 - WebAPI login failure. Reason: invalid credentials, attempt count: 5, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:16:15 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:16:15 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:16:15 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:16:16 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(I) 2023-08-08T03:16:18 - Successfully listening on IP. IP: "10.8.0.5". Port: "TCP/6881"
+(I) 2023-08-08T03:16:18 - Successfully listening on IP. IP: "10.8.0.5". Port: "UTP/6881"
+(W) 2023-08-08T03:16:41 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:16:41 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:16:42 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:16:42 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(N) 2023-08-08T03:21:33 - qBittorrent termination initiated
+(I) 2023-08-08T03:21:33 - UPnP/NAT-PMP support: OFF
+(N) 2023-08-08T03:21:33 - qBittorrent is now ready to exit
+(N) 2023-08-08T03:21:42 - qBittorrent v4.5.3 started
+(N) 2023-08-08T03:21:42 - Using config directory: /config/qBittorrent
+(N) 2023-08-08T03:21:42 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-08-08T03:21:42 - Peer ID: "-qB4530-"
+(I) 2023-08-08T03:21:42 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-08-08T03:21:42 - Distributed Hash Table (DHT) support: ON
+(I) 2023-08-08T03:21:42 - Local Peer Discovery support: ON
+(I) 2023-08-08T03:21:42 - Peer Exchange (PeX) support: ON
+(I) 2023-08-08T03:21:42 - Anonymous mode: OFF
+(I) 2023-08-08T03:21:42 - Encryption support: ON
+(I) 2023-08-08T03:21:42 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Aug 1 00:15:41 2023.
+(N) 2023-08-08T03:21:42 - Using built-in Web UI.
+(N) 2023-08-08T03:21:42 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-08-08T03:21:42 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-08-08T03:21:42 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-08-08T03:21:42 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-08-08T03:21:42 - Successfully listening on IP. IP: "172.18.0.2". Port: "TCP/6881"
+(I) 2023-08-08T03:21:42 - Successfully listening on IP. IP: "172.18.0.2". Port: "UTP/6881"
+(I) 2023-08-08T03:21:44 - Successfully listening on IP. IP: "10.8.0.12". Port: "TCP/6881"
+(I) 2023-08-08T03:21:44 - Successfully listening on IP. IP: "10.8.0.12". Port: "UTP/6881"
+(I) 2023-08-08T03:21:46 - Detected external IP. IP: "146.70.185.100"
+(W) 2023-08-08T03:21:54 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:21:54 - WebAPI login failure. Reason: invalid credentials, attempt count: 2, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:21:54 - WebAPI login failure. Reason: invalid credentials, attempt count: 3, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:21:57 - WebAPI login failure. Reason: invalid credentials, attempt count: 4, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:21:58 - WebAPI login failure. Reason: invalid credentials, attempt count: 5, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:21:58 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:21:58 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:21:58 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:22:00 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(I) 2023-08-08T03:22:03 - Successfully listening on IP. IP: "10.8.0.11". Port: "TCP/6881"
+(I) 2023-08-08T03:22:03 - Successfully listening on IP. IP: "10.8.0.11". Port: "UTP/6881"
+(W) 2023-08-08T03:22:22 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:22:23 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:22:26 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:22:26 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:27:56 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:27:56 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:28:23 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:28:23 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(N) 2023-08-08T03:30:58 - qBittorrent termination initiated
+(I) 2023-08-08T03:30:58 - UPnP/NAT-PMP support: OFF
+(N) 2023-08-08T03:30:58 - qBittorrent is now ready to exit
+(N) 2023-08-08T03:31:07 - qBittorrent v4.5.3 started
+(N) 2023-08-08T03:31:07 - Using config directory: /config/qBittorrent
+(N) 2023-08-08T03:31:07 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-08-08T03:31:07 - Peer ID: "-qB4530-"
+(I) 2023-08-08T03:31:07 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-08-08T03:31:07 - Distributed Hash Table (DHT) support: ON
+(I) 2023-08-08T03:31:07 - Local Peer Discovery support: ON
+(I) 2023-08-08T03:31:07 - Peer Exchange (PeX) support: ON
+(I) 2023-08-08T03:31:07 - Anonymous mode: OFF
+(I) 2023-08-08T03:31:07 - Encryption support: ON
+(I) 2023-08-08T03:31:07 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Aug 1 00:15:41 2023.
+(N) 2023-08-08T03:31:07 - Using built-in Web UI.
+(N) 2023-08-08T03:31:07 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-08-08T03:31:07 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-08-08T03:31:07 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-08-08T03:31:07 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-08-08T03:31:07 - Successfully listening on IP. IP: "172.18.0.4". Port: "TCP/6881"
+(I) 2023-08-08T03:31:07 - Successfully listening on IP. IP: "172.18.0.4". Port: "UTP/6881"
+(I) 2023-08-08T03:31:09 - Successfully listening on IP. IP: "10.8.0.12". Port: "TCP/6881"
+(I) 2023-08-08T03:31:09 - Successfully listening on IP. IP: "10.8.0.12". Port: "UTP/6881"
+(I) 2023-08-08T03:31:09 - Detected external IP. IP: "146.70.185.100"
+(W) 2023-08-08T03:31:18 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:31:19 - WebAPI login failure. Reason: invalid credentials, attempt count: 2, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:31:20 - WebAPI login failure. Reason: invalid credentials, attempt count: 3, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:31:21 - WebAPI login failure. Reason: invalid credentials, attempt count: 4, IP: ::ffff:127.0.0.1, username: admin
+(I) 2023-08-08T03:31:28 - Successfully listening on IP. IP: "10.8.0.21". Port: "TCP/6881"
+(I) 2023-08-08T03:31:28 - Successfully listening on IP. IP: "10.8.0.21". Port: "UTP/6881"
+(W) 2023-08-08T03:33:49 - WebAPI login failure. Reason: invalid credentials, attempt count: 5, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:33:49 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:34:45 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:34:46 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:37:15 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: brandon
+(N) 2023-08-08T03:39:00 - WebAPI login success. IP: ::ffff:192.168.1.164
+(W) 2023-08-08T03:39:30 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:39:38 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: brandon
+(W) 2023-08-08T03:39:39 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: brandon
+(W) 2023-08-08T03:39:40 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: brandon
+(W) 2023-08-08T03:39:40 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: brandon
+(W) 2023-08-08T03:39:49 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:39:49 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:40:11 - WebAPI login failure. Reason: invalid credentials, attempt count: 1, IP: ::ffff:172.18.0.4, username: brandon
+(W) 2023-08-08T03:40:14 - WebAPI login failure. Reason: invalid credentials, attempt count: 2, IP: ::ffff:172.18.0.4, username: brandon
+(W) 2023-08-08T03:40:16 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(W) 2023-08-08T03:40:16 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(N) 2023-08-08T03:40:50 - WebAPI login success. IP: ::ffff:172.18.0.4
+(W) 2023-08-08T03:40:50 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(N) 2023-08-08T03:43:38 - Added new torrent. Torrent: "Secret.Invasion.S01.HDR.2160p.DSNP.WEB-DL.DDPA5.1.H.265-NTb"
+(I) 2023-08-08T03:43:39 - Detected external IP. IP: "146.70.171.219"
+(N) 2023-08-08T03:44:19 - WebAPI login success. IP: ::ffff:172.18.0.4
+(W) 2023-08-08T03:44:19 - WebAPI login failure. Reason: IP has been banned, IP: ::ffff:127.0.0.1, username: admin
+(N) 2023-08-08T04:52:10 - Torrent download finished. Torrent: "Secret.Invasion.S01.HDR.2160p.DSNP.WEB-DL.DDPA5.1.H.265-NTb"
+(N) 2023-08-08T13:45:17 - WebAPI login success. IP: ::ffff:192.168.1.164
+(N) 2023-08-08T13:46:06 - Web UI: Now listening on IP: *, port: 5080
+(N) 2023-08-08T15:38:55 - Torrent reached the share ratio limit. Removed torrent. Torrent: "Secret.Invasion.S01.HDR.2160p.DSNP.WEB-DL.DDPA5.1.H.265-NTb".
+(N) 2023-08-08T15:38:56 - Removed torrent. Torrent: "Secret.Invasion.S01.HDR.2160p.DSNP.WEB-DL.DDPA5.1.H.265-NTb"
+(N) 2023-08-09T01:50:46 - qBittorrent termination initiated
+(I) 2023-08-09T01:50:46 - UPnP/NAT-PMP support: OFF
+(N) 2023-08-09T01:50:46 - qBittorrent is now ready to exit
+(N) 2023-08-09T01:50:55 - qBittorrent v4.5.3 started
+(N) 2023-08-09T01:50:55 - Using config directory: /config/qBittorrent
+(N) 2023-08-09T01:50:55 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-08-09T01:50:55 - Peer ID: "-qB4530-"
+(I) 2023-08-09T01:50:55 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-08-09T01:50:55 - Distributed Hash Table (DHT) support: ON
+(I) 2023-08-09T01:50:55 - Local Peer Discovery support: ON
+(I) 2023-08-09T01:50:55 - Peer Exchange (PeX) support: ON
+(I) 2023-08-09T01:50:55 - Anonymous mode: OFF
+(I) 2023-08-09T01:50:55 - Encryption support: ON
+(I) 2023-08-09T01:50:55 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-08-09T01:50:55 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-08-09T01:50:55 - Successfully listening on IP. IP: "172.18.0.3". Port: "TCP/6881"
+(I) 2023-08-09T01:50:55 - Successfully listening on IP. IP: "172.18.0.3". Port: "UTP/6881"
+(I) 2023-08-09T01:50:55 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Aug 1 00:15:41 2023.
+(N) 2023-08-09T01:50:55 - Using built-in Web UI.
+(N) 2023-08-09T01:50:55 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-08-09T01:50:55 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-08-09T01:50:57 - Successfully listening on IP. IP: "10.8.0.14". Port: "TCP/6881"
+(I) 2023-08-09T01:50:57 - Successfully listening on IP. IP: "10.8.0.14". Port: "UTP/6881"
+(I) 2023-08-09T01:50:58 - Detected external IP. IP: "146.70.166.100"
+(N) 2023-08-09T02:38:06 - qBittorrent termination initiated
+(I) 2023-08-09T02:38:06 - UPnP/NAT-PMP support: OFF
+(N) 2023-08-09T02:38:06 - qBittorrent is now ready to exit
+(N) 2023-08-09T02:38:15 - qBittorrent v4.5.3 started
+(N) 2023-08-09T02:38:15 - Using config directory: /config/qBittorrent
+(N) 2023-08-09T02:38:15 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-08-09T02:38:15 - Peer ID: "-qB4530-"
+(I) 2023-08-09T02:38:15 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-08-09T02:38:15 - Distributed Hash Table (DHT) support: ON
+(I) 2023-08-09T02:38:15 - Local Peer Discovery support: ON
+(I) 2023-08-09T02:38:15 - Peer Exchange (PeX) support: ON
+(I) 2023-08-09T02:38:15 - Anonymous mode: OFF
+(I) 2023-08-09T02:38:15 - Encryption support: ON
+(I) 2023-08-09T02:38:15 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-08-09T02:38:15 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-08-09T02:38:15 - Successfully listening on IP. IP: "172.18.0.2". Port: "TCP/6881"
+(I) 2023-08-09T02:38:15 - Successfully listening on IP. IP: "172.18.0.2". Port: "UTP/6881"
+(I) 2023-08-09T02:38:15 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Aug 1 00:15:41 2023.
+(N) 2023-08-09T02:38:15 - Using built-in Web UI.
+(N) 2023-08-09T02:38:15 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-08-09T02:38:15 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-08-09T02:38:16 - Successfully listening on IP. IP: "10.8.0.23". Port: "TCP/6881"
+(I) 2023-08-09T02:38:16 - Successfully listening on IP. IP: "10.8.0.23". Port: "UTP/6881"
+(I) 2023-08-09T02:38:18 - Detected external IP. IP: "198.44.136.139"
+(I) 2023-08-09T02:38:32 - Successfully listening on IP. IP: "10.8.0.14". Port: "TCP/6881"
+(I) 2023-08-09T02:38:32 - Successfully listening on IP. IP: "10.8.0.14". Port: "UTP/6881"
+(N) 2023-08-09T02:44:26 - qBittorrent termination initiated
+(I) 2023-08-09T02:44:27 - UPnP/NAT-PMP support: OFF
+(N) 2023-08-09T02:44:27 - qBittorrent is now ready to exit
+(N) 2023-08-09T02:44:35 - qBittorrent v4.5.3 started
+(N) 2023-08-09T02:44:35 - Using config directory: /config/qBittorrent
+(N) 2023-08-09T02:44:35 - Trying to listen on the following list of IP addresses: "0.0.0.0:6881,[::]:6881"
+(I) 2023-08-09T02:44:35 - Peer ID: "-qB4530-"
+(I) 2023-08-09T02:44:35 - HTTP User-Agent: "qBittorrent/4.5.3"
+(I) 2023-08-09T02:44:35 - Distributed Hash Table (DHT) support: ON
+(I) 2023-08-09T02:44:35 - Local Peer Discovery support: ON
+(I) 2023-08-09T02:44:35 - Peer Exchange (PeX) support: ON
+(I) 2023-08-09T02:44:35 - Anonymous mode: OFF
+(I) 2023-08-09T02:44:35 - Encryption support: ON
+(I) 2023-08-09T02:44:35 - Successfully listening on IP. IP: "127.0.0.1". Port: "TCP/6881"
+(I) 2023-08-09T02:44:35 - Successfully listening on IP. IP: "127.0.0.1". Port: "UTP/6881"
+(I) 2023-08-09T02:44:35 - Successfully listening on IP. IP: "172.18.0.2". Port: "TCP/6881"
+(I) 2023-08-09T02:44:35 - Successfully listening on IP. IP: "172.18.0.2". Port: "UTP/6881"
+(I) 2023-08-09T02:44:35 - IP geolocation database loaded. Type: DBIP-Country-Lite. Build time: Tue Aug 1 00:15:41 2023.
+(N) 2023-08-09T02:44:35 - Using built-in Web UI.
+(N) 2023-08-09T02:44:35 - Web UI translation for selected locale (en) has been successfully loaded.
+(N) 2023-08-09T02:44:35 - Web UI: Now listening on IP: *, port: 5080
+(I) 2023-08-09T02:44:38 - Successfully listening on IP. IP: "10.8.0.15". Port: "TCP/6881"
+(I) 2023-08-09T02:44:38 - Successfully listening on IP. IP: "10.8.0.15". Port: "UTP/6881"
+(I) 2023-08-09T02:44:42 - Detected external IP. IP: "146.70.166.10"
+(N) 2023-08-14T01:57:56 - WebAPI login success. IP: ::ffff:172.18.0.2
+(N) 2023-08-14T01:58:30 - WebAPI login success. IP: ::ffff:192.168.1.164
+(N) 2023-08-14T01:58:41 - Web UI: Now listening on IP: *, port: 5080
+(N) 2023-08-14T01:59:02 - WebAPI login success. IP: ::ffff:172.18.0.2
+(N) 2023-08-14T01:59:42 - Added new torrent. Torrent: "Extraction.2.2023.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX[TGx]"
+(N) 2023-08-14T01:59:50 - Added new torrent. Torrent: "John Wick: Chapter 4 (2023) (2160p x265 10bit HDR UHD BD Atmos) [Prof]"
+(I) 2023-08-14T16:11:02 - Successfully listening on IP. IP: "10.8.0.16". Port: "TCP/6881"
+(I) 2023-08-14T16:11:02 - Successfully listening on IP. IP: "10.8.0.16". Port: "UTP/6881"
+(I) 2023-08-14T16:11:33 - Detected external IP. IP: "146.70.166.10"
+(I) 2023-08-14T16:12:00 - Successfully listening on IP. IP: "10.8.0.11". Port: "TCP/6881"
+(I) 2023-08-14T16:12:00 - Successfully listening on IP. IP: "10.8.0.11". Port: "UTP/6881"
+(I) 2023-08-14T16:12:03 - Detected external IP. IP: "146.70.165.100"
+(I) 2023-08-14T16:12:10 - Successfully listening on IP. IP: "10.8.0.33". Port: "TCP/6881"
+(I) 2023-08-14T16:12:10 - Successfully listening on IP. IP: "10.8.0.33". Port: "UTP/6881"
+(I) 2023-08-14T16:12:11 - Detected external IP. IP: "198.44.136.164"
+(N) 2023-08-14T16:44:43 - Torrent download finished. Torrent: "Extraction.2.2023.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX[TGx]"
+(N) 2023-08-14T17:15:13 - Torrent download finished. Torrent: "John Wick: Chapter 4 (2023) (2160p x265 10bit HDR UHD BD Atmos) [Prof]"
+(N) 2023-08-14T18:55:08 - WebAPI login success. IP: ::ffff:192.168.1.164
+(N) 2023-08-14T18:59:18 - Removed torrent. Torrent: "Extraction.2.2023.2160p.NF.WEB-DL.DDP5.1.Atmos.DV.HDR.H.265-FLUX[TGx]"
+(N) 2023-08-14T18:59:24 - Removed torrent. Torrent: "John Wick: Chapter 4 (2023) (2160p x265 10bit HDR UHD BD Atmos) [Prof]"
+(N) 2023-08-27T19:07:29 - Added new torrent. Torrent: "Grown Ups 2010 1080p NF WEBRip x264 AAC DD+ 5.1 HQ"
+(N) 2023-08-27T19:11:14 - WebAPI login success. IP: ::ffff:192.168.1.164
+(N) 2023-08-28T02:35:18 - Torrent download finished. Torrent: "Grown Ups 2010 1080p NF WEBRip x264 AAC DD+ 5.1 HQ"
+(I) 2023-09-20T05:30:56 - Successfully listening on IP. IP: "10.8.0.6". Port: "TCP/6881"
+(I) 2023-09-20T05:30:56 - Successfully listening on IP. IP: "10.8.0.6". Port: "UTP/6881"
+(N) 2023-09-29T00:51:54 - Added new torrent. Torrent: "Twilight.2008.2160p.UHD.BluRay.X265.10bit.HDR.TrueHD.7.1.Atmos-I"
+(N) 2023-09-29T00:52:55 - WebAPI login success. IP: ::ffff:192.168.1.164
+(N) 2023-09-29T00:53:16 - Removed torrent. Torrent: "Grown Ups 2010 1080p NF WEBRip x264 AAC DD+ 5.1 HQ"

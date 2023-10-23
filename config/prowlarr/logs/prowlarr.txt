@@ -1,0 +1,164 @@
+2023-10-23 21:48:30.9|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5070]
+2023-10-23 21:48:30.9|Info|ReleaseSearchService|Searching indexer(s): [Internet Archive] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 21:48:31.0|Info|ReleaseSearchService|Searching indexer(s): [Badass Torrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-10-23 21:48:30.9|Info|ReleaseSearchService|Searching indexer(s): [EZTV] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 21:48:31.1|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-10-23 21:48:31.1|Info|ReleaseSearchService|Searching indexer(s): [Solid Torrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 21:48:31.1|Info|ReleaseSearchService|Searching indexer(s): [TorrentGalaxy] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5045, 5050, 5070]
+2023-10-23 21:48:31.1|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040]
+2023-10-23 21:48:39.5|Info|ReleaseSearchService|Searching indexer(s): [Internet Archive] for Term: [] for Season / Episode:[], Offset: 100, Limit: 100, Categories: [5000]
+2023-10-23 22:04:01.5|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2023-10-23 22:04:01.6|Info|ReleaseSearchService|Searching indexer(s): [EZTV] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 22:04:01.6|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5070]
+2023-10-23 22:04:01.6|Info|ReleaseSearchService|Searching indexer(s): [Badass Torrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-10-23 22:04:01.6|Info|ReleaseSearchService|Searching indexer(s): [Solid Torrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 22:04:01.7|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040]
+2023-10-23 22:04:01.7|Info|ReleaseSearchService|Searching indexer(s): [TorrentGalaxy] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5045, 5050, 5070]
+2023-10-23 22:04:01.7|Info|ReleaseSearchService|Searching indexer(s): [Internet Archive] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 22:04:01.7|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-10-23 22:14:27.4|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-10-23 22:14:27.7|Warn|HttpClient|HTTP Error - Res: [POST] http://localhost:7878/api/v3/indexer: 400.BadRequest (274 bytes)
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.",
+    "severity": "error"
+  }
+]
+2023-10-23 22:14:27.8|Error|RadarrV3Proxy|No Results in configured categories. See FAQ Entry: Prowlarr will not sync X Indexer to App
+
+[v1.6.0.3527] NzbDrone.Common.Http.HttpException: HTTP request failed: [400:BadRequest] [POST] at [http://localhost:7878/api/v3/indexer]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.Applications.Radarr.RadarrV3Proxy.Execute[TResource](HttpRequest request) in ./Prowlarr.Core/Applications/Radarr/RadarrV3Proxy.cs:line 231
+   at NzbDrone.Core.Applications.Radarr.RadarrV3Proxy.ExecuteIndexerRequest(HttpRequest request) in ./Prowlarr.Core/Applications/Radarr/RadarrV3Proxy.cs:line 169
+[
+  {
+    "isWarning": false,
+    "propertyName": "",
+    "errorMessage": "Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.",
+    "severity": "error"
+  }
+]
+
+
+2023-10-23 22:17:33.5|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2070, 2030, 2010, 2040, 2060, 2045]
+2023-10-23 22:17:33.6|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2020, 2040, 2060]
+2023-10-23 22:17:33.6|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2023-10-23 22:17:33.7|Info|ReleaseSearchService|Searching indexer(s): [Internet Archive] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-10-23 22:17:33.7|Info|ReleaseSearchService|Searching indexer(s): [TorrentGalaxy] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2045, 2010, 2020, 2040, 2030]
+2023-10-23 22:17:33.8|Info|ReleaseSearchService|Searching indexer(s): [YourBittorrent] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-10-23 22:17:33.8|Info|ReleaseSearchService|Searching indexer(s): [Badass Torrents] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-10-23 22:17:37.7|Info|ReleaseSearchService|Searching indexer(s): [Internet Archive] for Term: [], Offset: 100, Limit: 100, Categories: [2000]
+2023-10-23 22:19:31.8|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5070]
+2023-10-23 22:19:31.8|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-10-23 22:19:31.8|Info|ReleaseSearchService|Searching indexer(s): [Badass Torrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-10-23 22:19:31.8|Info|ReleaseSearchService|Searching indexer(s): [EZTV] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 22:19:31.9|Info|ReleaseSearchService|Searching indexer(s): [Internet Archive] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 22:19:31.9|Info|ReleaseSearchService|Searching indexer(s): [Solid Torrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 22:19:31.9|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2023-10-23 22:19:31.9|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040]
+2023-10-23 22:19:32.0|Info|ReleaseSearchService|Searching indexer(s): [TorrentGalaxy] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5045, 5050, 5070]
+2023-10-23 22:35:02.3|Info|ReleaseSearchService|Searching indexer(s): [Badass Torrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-10-23 22:35:02.3|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5070]
+2023-10-23 22:35:02.3|Info|ReleaseSearchService|Searching indexer(s): [Internet Archive] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 22:35:02.3|Info|ReleaseSearchService|Searching indexer(s): [Solid Torrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 22:35:02.3|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-10-23 22:35:02.4|Info|ReleaseSearchService|Searching indexer(s): [EZTV] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 22:35:02.4|Info|ReleaseSearchService|Searching indexer(s): [TorrentGalaxy] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5045, 5050, 5070]
+2023-10-23 22:35:02.4|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040]
+2023-10-23 22:50:32.6|Info|ReleaseSearchService|Searching indexer(s): [Badass Torrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-10-23 22:50:32.6|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2023-10-23 22:50:32.6|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5070]
+2023-10-23 22:50:32.7|Info|ReleaseSearchService|Searching indexer(s): [EZTV] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 22:50:32.7|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-10-23 22:50:32.7|Info|ReleaseSearchService|Searching indexer(s): [Internet Archive] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 22:50:32.7|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040]
+2023-10-23 22:50:32.7|Info|ReleaseSearchService|Searching indexer(s): [Solid Torrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 22:50:32.7|Info|ReleaseSearchService|Searching indexer(s): [TorrentGalaxy] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5045, 5050, 5070]
+2023-10-23 23:06:03.0|Info|ReleaseSearchService|Searching indexer(s): [Badass Torrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-10-23 23:06:03.0|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5070]
+2023-10-23 23:06:03.0|Info|ReleaseSearchService|Searching indexer(s): [EZTV] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 23:06:03.3|Info|ReleaseSearchService|Searching indexer(s): [Internet Archive] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 23:06:03.3|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-10-23 23:06:03.3|Info|ReleaseSearchService|Searching indexer(s): [Solid Torrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 23:06:03.3|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040]
+2023-10-23 23:06:03.3|Info|ReleaseSearchService|Searching indexer(s): [TorrentGalaxy] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5045, 5050, 5070]
+2023-10-23 23:18:05.0|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2070, 2030, 2010, 2040, 2060, 2045]
+2023-10-23 23:18:05.0|Info|ReleaseSearchService|Searching indexer(s): [Internet Archive] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-10-23 23:18:05.0|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2020, 2040, 2060]
+2023-10-23 23:18:05.0|Info|ReleaseSearchService|Searching indexer(s): [YourBittorrent] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-10-23 23:18:05.1|Info|ReleaseSearchService|Searching indexer(s): [TorrentGalaxy] for Term: [], Offset: 0, Limit: 100, Categories: [2000, 2045, 2010, 2020, 2040, 2030]
+2023-10-23 23:18:05.2|Info|ReleaseSearchService|Searching indexer(s): [Badass Torrents] for Term: [], Offset: 0, Limit: 100, Categories: [2000]
+2023-10-23 23:18:05.2|Info|Prowlarr.Http.Authentication.ApiKeyAuthenticationHandler|AuthenticationScheme: API was challenged.
+2023-10-23 23:18:09.7|Info|ReleaseSearchService|Searching indexer(s): [Internet Archive] for Term: [], Offset: 100, Limit: 100, Categories: [2000]
+2023-10-23 23:21:35.2|Info|ReleaseSearchService|Searching indexer(s): [TorrentGalaxy] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5045, 5050, 5070]
+2023-10-23 23:21:35.2|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040]
+2023-10-23 23:21:35.2|Info|ReleaseSearchService|Searching indexer(s): [Solid Torrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 23:21:35.3|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-10-23 23:21:35.3|Info|ReleaseSearchService|Searching indexer(s): [Internet Archive] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 23:21:35.3|Info|ReleaseSearchService|Searching indexer(s): [EZTV] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 23:21:35.3|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5070]
+2023-10-23 23:21:35.3|Info|ReleaseSearchService|Searching indexer(s): [Badass Torrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-10-23 23:37:05.3|Info|ReleaseSearchService|Searching indexer(s): [Badass Torrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-10-23 23:37:05.5|Info|ReleaseSearchService|Searching indexer(s): [1337x] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5070]
+2023-10-23 23:37:05.6|Info|ReleaseSearchService|Searching indexer(s): [TorrentGalaxy] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5040, 5030, 5045, 5050, 5070]
+2023-10-23 23:37:05.7|Info|ReleaseSearchService|Searching indexer(s): [EZTV] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 23:37:05.7|Info|ReleaseSearchService|Searching indexer(s): [Internet Archive] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 23:37:05.9|Info|ReleaseSearchService|Searching indexer(s): [LimeTorrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5070]
+2023-10-23 23:37:05.9|Info|ReleaseSearchService|Searching indexer(s): [Solid Torrents] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000]
+2023-10-23 23:37:05.9|Info|ReleaseSearchService|Searching indexer(s): [The Pirate Bay] for Term: [] for Season / Episode:[], Offset: 0, Limit: 100, Categories: [5000, 5050, 5040]
+2023-10-23 23:42:33.9|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-10-23 23:42:34.8|Info|ConsoleApp|Exiting main.
+2023-10-23 23:42:52.6|Info|Bootstrap|Starting Prowlarr - /app/prowlarr/bin/Prowlarr - Version 1.6.0.3527
+2023-10-23 23:42:53.9|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-10-23 23:42:54.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-10-23 23:43:04.0|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-10-23 23:43:09.0|Info|MigrationController|*** Migrating data source=/config/prowlarr.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-10-23 23:43:12.6|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-20000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-10-23 23:43:17.3|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:9696
+2023-10-23 23:43:21.3|Info|CommandExecutor|Starting 3 threads for tasks.
+2023-10-23 23:43:32.5|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-10-23 23:43:32.5|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-10-23 23:43:32.6|Info|Microsoft.Hosting.Lifetime|Content root path: /app/prowlarr/bin
+2023-10-23 23:43:44.8|Error|TaskExtensions|Task Error
+
+[v1.6.0.3527] System.Net.Http.HttpRequestException: Resource temporarily unavailable (prowlarr.servarr.com:443)
+ ---> System.Net.Sockets.SocketException (11): Resource temporarily unavailable
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|277_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.attemptConnection(AddressFamily addressFamily, SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 314
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.onConnect(SocketsHttpConnectionContext context, CancellationToken cancellationToken) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 300
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(HttpRequestMessage request)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Prowlarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 106
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Prowlarr.Common/Http/HttpClient.cs:line 171
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Prowlarr.Common/Http/HttpClient.cs:line 137
+   at NzbDrone.Core.HealthCheck.Checks.SystemTimeCheck.Check() in ./Prowlarr.Core/HealthCheck/Checks/SystemTimeCheck.cs:line 36
+   at NzbDrone.Core.HealthCheck.HealthCheckService.<>c.<PerformHealthCheck>b__15_0(IProvideHealthCheck c) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 82
+   at System.Linq.Enumerable.SelectArrayIterator`2.ToList()
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at NzbDrone.Core.HealthCheck.HealthCheckService.PerformHealthCheck(IProvideHealthCheck[] healthChecks, Boolean performServerChecks) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 82
+   at NzbDrone.Core.HealthCheck.HealthCheckService.HandleAsync(ApplicationStartedEvent message) in ./Prowlarr.Core/HealthCheck/HealthCheckService.cs:line 131
+   at NzbDrone.Core.Messaging.Events.EventAggregator.<>c__DisplayClass6_2`1.<PublishEvent>b__2() in ./Prowlarr.Core/Messaging/Events/EventAggregator.cs:line 120
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunFromThreadPoolDispatchLoop(Thread threadPoolThread, ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+
+

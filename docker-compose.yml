@@ -1,0 +1,143 @@
+version: "3.9"
+name: media-stack
+services:
+  vpn:
+  ## Read https://github.com/qdm12/gluetun/wiki for details on configuring VPN for different service providers.
+    container_name: vpn
+    image: qmcgaw/gluetun:v3.34
+    cap_add:
+      - NET_ADMIN
+    environment:
+      - VPN_SERVICE_PROVIDER=mullvad
+      - OPENVPN_USER= # ADD USER ID HERE
+      ## For list of server regions and countries, visit https://raw.githubusercontent.com/qdm12/gluetun/master/internal/storage/servers.json
+      - SERVER_COUNTRIES=USA
+      - SERVER_CITIES=New York NY
+    networks:
+      - mynetwork
+    ports:
+      # qbittorrent ports
+      - 5080:5080
+      - 6881:6881
+      - 6881:6881/udp
+      # prowlarr ports
+      - 9696:9696
+      # radarr ports
+      - 7878:7878
+      # sonarr ports
+      - 8989:8989
+    restart: unless-stopped
+
+  qbittorrent:
+    container_name: qbittorrent
+    image: lscr.io/linuxserver/qbittorrent:4.5.3
+    depends_on:
+      - vpn
+    network_mode: service:vpn
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+      - WEBUI_PORT=5080
+    ## Change the base paths to a known location
+    volumes:
+      - ./config/qbittorrent:/config
+      - "/path/to/drive/data/torrents:/data/torrents" # ADD PATH TO EXTERNAL DRIVE
+    restart: unless-stopped
+
+  radarr:
+    container_name: radarr
+    image: lscr.io/linuxserver/radarr:4.5.2
+    depends_on:
+      - vpn
+    network_mode: service:vpn
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+    ## Change the base paths to a known location
+    volumes:
+      - ./config/radarr:/config
+      - "/path/to/drive/data:/data" # ADD PATH TO EXTERNAL DRIVE
+    restart: unless-stopped
+
+  sonarr:
+    image: linuxserver/sonarr:4.0.0-develop
+    container_name: sonarr
+    depends_on:
+      - vpn
+    network_mode: service:vpn
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+    ## Change the base paths to a known location
+    volumes:
+      - ./config/sonarr:/config
+      - "/path/to/drive/data:/data" # ADD PATH TO EXTERNAL DRIVE
+    restart: unless-stopped
+
+  prowlarr:
+    container_name: prowlarr
+    image: linuxserver/prowlarr:1.6.0-develop
+    depends_on:
+      - vpn
+    network_mode: service:vpn
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+    ## Change the base paths to a known location
+    volumes:
+      - ./config/prowlarr:/config
+    restart: unless-stopped
+
+  jellyseerr:
+    image: fallenbagel/jellyseerr:1.5.0
+    container_name: jellyseerr
+    networks:
+      - mynetwork
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+    ports:
+      - 5055:5055
+    ## Change the base paths to a known location
+    restart: unless-stopped
+
+  jellyfin:
+    image: linuxserver/jellyfin:latest
+    container_name: jellyfin
+    networks:
+      - mynetwork
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=UTC
+      - DOCKER_MODS=linuxserver/mods:jellyfin-opencl-intel
+    ## Change the base paths to a known location
+    volumes:
+      - "/path/to/drive/data/media:/data/media" # ADD PATH TO EXTERNAL DRIVE
+#      - /dev/dri:/dev/dri # GPU drivers directory
+#    devices:
+#      # Make sure this path maps to gpu
+#      - /dev/dri/renderD128:/dev/dri/renderD128
+    ports:
+      - 8096:8096
+      - 7359:7359/udp
+      - 8920:8920
+    restart: unless-stopped
+
+volumes:
+  torrent-downloads:
+  radarr-config:
+  sonarr-config:
+  prowlarr-config:
+  qbittorrent-config:
+  tx-config:
+  tx-watch:
+
+networks:
+  mynetwork:
+    external: true

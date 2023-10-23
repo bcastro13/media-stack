@@ -1,0 +1,158 @@
+2023-10-23 21:39:01.0|Info|HousekeepingService|Running housecleaning tasks
+2023-10-23 21:39:02.3|Info|Database|Vacuuming Log database
+2023-10-23 21:39:02.5|Info|Database|Log database compressed
+2023-10-23 21:39:02.5|Info|Database|Vacuuming Main database
+2023-10-23 21:39:05.0|Info|Database|Main database compressed
+2023-10-23 21:42:13.6|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://localhost:9696/2/api?t=tvsearch&cat=5000,5040,5030,5070&extended=1&apikey=(removed)&offset=0&limit=100: 401.Unauthorized (0 bytes)
+2023-10-23 21:42:13.6|Warn|Torznab|Unable to connect to indexer
+
+[v4.0.0.700] NzbDrone.Common.Http.HttpException: HTTP request failed: [401:Unauthorized] [GET] at [http://localhost:9696/2/api?t=tvsearch&cat=5000,5040,5030,5070&extended=1&apikey=(removed)&offset=0&limit=100]
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 119
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchIndexerResponse(IndexerRequest request) in ./Sonarr.Core/Indexers/HttpIndexerBase.cs:line 362
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.FetchPage(IndexerRequest request, IParseIndexerResponse parser) in ./Sonarr.Core/Indexers/HttpIndexerBase.cs:line 346
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.TestConnection() in ./Sonarr.Core/Indexers/HttpIndexerBase.cs:line 382
+
+
+2023-10-23 21:42:13.6|Warn|SonarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to connect to indexer, invalid credentials. HTTP request failed: [401:Unauthorized] [GET] at [http://localhost:9696/2/api?t=tvsearch&cat=5000,5040,5030,5070&extended=1&apikey=(removed)&offset=0&limit=100]
+2023-10-23 21:44:04.5|Warn|SonarrErrorPipeline|Invalid request Validation failed: 
+ -- : Query successful, but no results in the configured categories were returned from your indexer. This may be an issue with the indexer or your indexer category settings.
+2023-10-23 21:44:19.1|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://localhost:9696/10/api?t=caps&apikey=(removed) 429.TooManyRequests (142 bytes)
+<?xml version="1.0" encoding="UTF-8"?>
+<error code="429" description="Indexer is disabled till 10/23/2023 21:45:04 due to recent failures." />
+2023-10-23 21:44:19.2|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://localhost:9696/10/api?t=caps&apikey=(removed) 429.TooManyRequests (142 bytes)
+<?xml version="1.0" encoding="UTF-8"?>
+<error code="429" description="Indexer is disabled till 10/23/2023 21:45:04 due to recent failures." />
+2023-10-23 21:44:19.2|Warn|Torznab|Unable to connect to indexer
+
+[v4.0.0.700] NzbDrone.Common.Http.TooManyRequestsException: HTTP request failed: [429:TooManyRequests] [GET] at [http://localhost:9696/10/api?t=caps&apikey=(removed)   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 115
+   at NzbDrone.Common.Http.HttpClient.Get(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 327
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.FetchCapabilities(NewznabSettings indexerSettings) in ./Sonarr.Core/Indexers/Newznab/NewznabCapabilitiesProvider.cs:line 58
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.<>c__DisplayClass4_0.<GetCapabilities>b__0() in ./Sonarr.Core/Indexers/Newznab/NewznabCapabilitiesProvider.cs:line 35
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in ./Sonarr.Common/Cache/Cached.cs:line 99
+   at NzbDrone.Core.Indexers.Newznab.NewznabCapabilitiesProvider.GetCapabilities(NewznabSettings indexerSettings) in ./Sonarr.Core/Indexers/Newznab/NewznabCapabilitiesProvider.cs:line 37
+   at NzbDrone.Core.Indexers.Newznab.NewznabRequestGenerator.GetRecentRequests() in ./Sonarr.Core/Indexers/Newznab/NewznabRequestGenerator.cs:line 188
+   at NzbDrone.Core.Indexers.HttpIndexerBase`1.TestConnection() in ./Sonarr.Core/Indexers/HttpIndexerBase.cs:line 375
+<?xml version="1.0" encoding="UTF-8"?>
+<error code="429" description="Indexer is disabled till 10/23/2023 21:45:04 due to recent failures." />
+
+2023-10-23 21:44:19.2|Warn|SonarrErrorPipeline|Invalid request Validation failed: 
+ -- : Unable to connect to indexer, check the log above the ValidationFailure for more details. HTTP request failed: [429:TooManyRequests] [GET] at [http://localhost:9696/10/api?t=caps&apikey=(removed)
+2023-10-23 21:44:23.5|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://localhost:9696/10/api?t=caps&apikey=(removed) 429.TooManyRequests (142 bytes)
+<?xml version="1.0" encoding="UTF-8"?>
+<error code="429" description="Indexer is disabled till 10/23/2023 21:45:04 due to recent failures." />
+2023-10-23 21:48:30.8|Info|RssSyncService|Starting RSS Sync
+2023-10-23 21:48:33.5|Warn|Torznab|Indexer Solid Torrents (Prowlarr) rss sync didn't cover the period between 10/23/2023 00:00:00 and 10/23/2023 00:00:00 UTC. Search may be required.
+2023-10-23 21:48:36.8|Warn|Torznab|Indexer Badass Torrents (Prowlarr) rss sync didn't cover the period between 10/17/2023 21:33:06 and 10/17/2023 21:48:32 UTC. Search may be required.
+2023-10-23 21:48:39.5|Warn|Torznab|Indexer Internet Archive (Prowlarr) rss sync didn't cover the period between 10/23/2023 21:30:19 and 10/23/2023 21:33:18 UTC. Search may be required.
+2023-10-23 21:48:41.3|Info|DownloadDecisionMaker|Processing 392 releases
+2023-10-23 21:48:41.9|Info|RssSyncService|RSS Sync Completed. Reports found: 392, Reports grabbed: 0
+2023-10-23 21:55:41.0|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qBittorrent
+
+[v4.0.0.700] System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 105
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 36
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 84
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 79
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in ./Sonarr.Common/Cache/Cached.cs:line 99
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 79
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 62
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 216
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in ./Sonarr.Core/Download/TrackedDownloads/DownloadMonitoringService.cs:line 90
+
+2023-10-23 22:04:01.2|Info|RssSyncService|Starting RSS Sync
+2023-10-23 22:04:01.5|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://localhost:9696/10/api?t=tvsearch&cat=5000,5070&extended=1&apikey=(removed)&offset=0&limit=100: 401.Unauthorized (0 bytes)
+2023-10-23 22:04:01.6|Warn|Torznab|YourBittorrent (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://localhost:9696/10/api?t=tvsearch&cat=5000,5070&extended=1&apikey=(removed)&offset=0&limit=100]
+2023-10-23 22:04:04.7|Warn|Torznab|Indexer Solid Torrents (Prowlarr) rss sync didn't cover the period between 10/23/2023 00:00:00 and 10/23/2023 00:00:00 UTC. Search may be required.
+2023-10-23 22:04:07.6|Warn|Torznab|Indexer Badass Torrents (Prowlarr) rss sync didn't cover the period between 10/17/2023 21:48:36 and 10/17/2023 22:04:04 UTC. Search may be required.
+2023-10-23 22:04:17.4|Info|DownloadDecisionMaker|Processing 389 releases
+2023-10-23 22:04:18.5|Info|RssSyncService|RSS Sync Completed. Reports found: 389, Reports grabbed: 0
+2023-10-23 22:19:31.7|Info|RssSyncService|Starting RSS Sync
+2023-10-23 22:19:31.9|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://localhost:9696/10/api?t=tvsearch&cat=5000,5070&extended=1&apikey=(removed)&offset=0&limit=100: 401.Unauthorized (0 bytes)
+2023-10-23 22:19:31.9|Warn|Torznab|YourBittorrent (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://localhost:9696/10/api?t=tvsearch&cat=5000,5070&extended=1&apikey=(removed)&offset=0&limit=100]
+2023-10-23 22:19:34.4|Warn|Torznab|Indexer Solid Torrents (Prowlarr) rss sync didn't cover the period between 10/23/2023 00:00:00 and 10/23/2023 00:00:00 UTC. Search may be required.
+2023-10-23 22:19:37.3|Warn|Torznab|Indexer Badass Torrents (Prowlarr) rss sync didn't cover the period between 10/17/2023 22:04:07 and 10/17/2023 22:19:33 UTC. Search may be required.
+2023-10-23 22:19:38.4|Warn|Torznab|Indexer 1337x (Prowlarr) rss sync didn't cover the period between 10/23/2023 22:00:00 and 10/23/2023 22:00:00 UTC. Search may be required.
+2023-10-23 22:19:38.5|Info|DownloadDecisionMaker|Processing 391 releases
+2023-10-23 22:19:38.9|Info|RssSyncService|RSS Sync Completed. Reports found: 391, Reports grabbed: 0
+2023-10-23 22:26:32.0|Info|SceneMappingService|Updating Scene mappings
+2023-10-23 22:28:42.0|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qBittorrent
+
+[v4.0.0.700] System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 105
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 36
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 84
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 79
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in ./Sonarr.Common/Cache/Cached.cs:line 99
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 79
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 62
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 216
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in ./Sonarr.Core/Download/TrackedDownloads/DownloadMonitoringService.cs:line 90
+
+2023-10-23 22:35:02.2|Info|RssSyncService|Starting RSS Sync
+2023-10-23 22:35:03.3|Warn|Torznab|Indexer Solid Torrents (Prowlarr) rss sync didn't cover the period between 10/23/2023 00:00:00 and 10/23/2023 00:00:00 UTC. Search may be required.
+2023-10-23 22:35:07.8|Warn|Torznab|Indexer Badass Torrents (Prowlarr) rss sync didn't cover the period between 10/17/2023 22:19:37 and 10/17/2023 22:35:04 UTC. Search may be required.
+2023-10-23 22:35:08.7|Info|DownloadDecisionMaker|Processing 401 releases
+2023-10-23 22:35:09.1|Info|RssSyncService|RSS Sync Completed. Reports found: 401, Reports grabbed: 0
+2023-10-23 22:50:32.5|Info|RssSyncService|Starting RSS Sync
+2023-10-23 22:50:32.7|Warn|HttpClient|HTTP Error - Res: HTTP/1.1 [GET] http://localhost:9696/10/api?t=tvsearch&cat=5000,5070&extended=1&apikey=(removed)&offset=0&limit=100: 401.Unauthorized (0 bytes)
+2023-10-23 22:50:32.7|Warn|Torznab|YourBittorrent (Prowlarr) HTTP request failed: [401:Unauthorized] [GET] at [http://localhost:9696/10/api?t=tvsearch&cat=5000,5070&extended=1&apikey=(removed)&offset=0&limit=100]
+2023-10-23 22:50:35.6|Warn|Torznab|Indexer Solid Torrents (Prowlarr) rss sync didn't cover the period between 10/23/2023 00:00:00 and 10/23/2023 00:00:00 UTC. Search may be required.
+2023-10-23 22:50:38.1|Warn|Torznab|Indexer Badass Torrents (Prowlarr) rss sync didn't cover the period between 10/17/2023 22:35:07 and 10/17/2023 22:50:33 UTC. Search may be required.
+2023-10-23 22:50:39.5|Info|DownloadDecisionMaker|Processing 385 releases
+2023-10-23 22:50:39.9|Info|RssSyncService|RSS Sync Completed. Reports found: 385, Reports grabbed: 0
+2023-10-23 23:06:03.0|Info|RssSyncService|Starting RSS Sync
+2023-10-23 23:06:05.1|Warn|Torznab|Indexer Solid Torrents (Prowlarr) rss sync didn't cover the period between 10/23/2023 00:00:00 and 10/23/2023 00:00:00 UTC. Search may be required.
+2023-10-23 23:06:09.0|Warn|Torznab|Indexer Badass Torrents (Prowlarr) rss sync didn't cover the period between 10/17/2023 22:50:38 and 10/17/2023 23:06:05 UTC. Search may be required.
+2023-10-23 23:06:09.7|Info|DownloadDecisionMaker|Processing 396 releases
+2023-10-23 23:06:10.0|Info|RssSyncService|RSS Sync Completed. Reports found: 396, Reports grabbed: 0
+2023-10-23 23:21:35.0|Info|RssSyncService|Starting RSS Sync
+2023-10-23 23:21:37.6|Warn|Torznab|Indexer Solid Torrents (Prowlarr) rss sync didn't cover the period between 10/23/2023 00:00:00 and 10/23/2023 00:00:00 UTC. Search may be required.
+2023-10-23 23:21:40.8|Warn|Torznab|Indexer Badass Torrents (Prowlarr) rss sync didn't cover the period between 10/17/2023 23:06:09 and 10/17/2023 23:21:35 UTC. Search may be required.
+2023-10-23 23:21:41.6|Info|DownloadDecisionMaker|Processing 392 releases
+2023-10-23 23:21:42.0|Info|RssSyncService|RSS Sync Completed. Reports found: 392, Reports grabbed: 0
+2023-10-23 23:31:15.2|Warn|DownloadMonitoringService|Unable to retrieve queue and history items from qBittorrent
+
+[v4.0.0.700] System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Net.Http.HttpClient.HandleFailure(Exception e, Boolean telemetryStarted, HttpResponseMessage response, CancellationTokenSource cts, CancellationToken cancellationToken, CancellationTokenSource pendingRequestsCts)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at NzbDrone.Common.Http.Dispatchers.ManagedHttpDispatcher.GetResponseAsync(HttpRequest request, CookieContainer cookies) in ./Sonarr.Common/Http/Dispatchers/ManagedHttpDispatcher.cs:line 105
+   at NzbDrone.Common.Http.HttpClient.ExecuteRequestAsync(HttpRequest request, CookieContainer cookieContainer) in ./Sonarr.Common/Http/HttpClient.cs:line 157
+   at NzbDrone.Common.Http.HttpClient.ExecuteAsync(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 70
+   at NzbDrone.Common.Http.HttpClient.Execute(HttpRequest request) in ./Sonarr.Common/Http/HttpClient.cs:line 128
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxyV2.IsApiSupported(QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxyV2.cs:line 36
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.FetchProxy(QBittorrentSettings settings) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 84
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.<>c__DisplayClass7_0.<GetProxyCache>b__0() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 79
+   at NzbDrone.Common.Cache.Cached`1.Get(String key, Func`1 function, Nullable`1 lifeTime) in ./Sonarr.Common/Cache/Cached.cs:line 99
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxyCache(QBittorrentSettings settings, Boolean force) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 79
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrentProxySelector.GetProxy(QBittorrentSettings settings, Boolean force) in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrentProxySelector.cs:line 62
+   at NzbDrone.Core.Download.Clients.QBittorrent.QBittorrent.GetItems() in ./Sonarr.Core/Download/Clients/QBittorrent/QBittorrent.cs:line 216
+   at NzbDrone.Core.Download.TrackedDownloads.DownloadMonitoringService.ProcessClientDownloads(IDownloadClient downloadClient) in ./Sonarr.Core/Download/TrackedDownloads/DownloadMonitoringService.cs:line 90
+
+2023-10-23 23:37:05.3|Info|RssSyncService|Starting RSS Sync
+2023-10-23 23:37:07.1|Warn|Torznab|Indexer Solid Torrents (Prowlarr) rss sync didn't cover the period between 10/23/2023 00:00:00 and 10/23/2023 00:00:00 UTC. Search may be required.
+2023-10-23 23:37:10.8|Warn|Torznab|Indexer Badass Torrents (Prowlarr) rss sync didn't cover the period between 10/17/2023 23:21:40 and 10/17/2023 23:37:06 UTC. Search may be required.
+2023-10-23 23:37:12.3|Info|DownloadDecisionMaker|Processing 401 releases
+2023-10-23 23:37:12.9|Info|RssSyncService|RSS Sync Completed. Reports found: 401, Reports grabbed: 0
+2023-10-23 23:42:33.9|Info|Microsoft.Hosting.Lifetime|Application is shutting down...
+2023-10-23 23:42:34.6|Info|ConsoleApp|Exiting main.
+2023-10-23 23:42:51.7|Info|Bootstrap|Starting Sonarr - /app/sonarr/bin/Sonarr - Version 4.0.0.700
+2023-10-23 23:42:53.3|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-10-23 23:42:53.6|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-10-23 23:43:01.5|Info|AppFolderInfo|Data directory is being overridden to [/config]
+2023-10-23 23:43:07.7|Info|MigrationController|*** Migrating data source=/config/sonarr.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-10-23 23:43:11.9|Info|MigrationController|*** Migrating data source=/config/logs.db;cache size=-10000;datetimekind=Utc;journal mode=Wal;pooling=True;version=3 ***
+2023-10-23 23:43:19.2|Info|Microsoft.Hosting.Lifetime|Now listening on: http://[::]:8989
+2023-10-23 23:43:25.4|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-10-23 23:43:25.4|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-10-23 23:43:25.4|Info|Microsoft.Hosting.Lifetime|Content root path: /app/sonarr/bin
