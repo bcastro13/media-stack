@@ -21,6 +21,7 @@ A stack of self-hosted media managers and streamer along with VPN.
 - It may also work on some of lower versions, but its not tested.
 
 ## Installation
+Edit the docker-composed.yml file to suit your config. The steps are numbered.
 
 Run the following commands
 ```
