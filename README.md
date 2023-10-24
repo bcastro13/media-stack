@@ -1,6 +1,6 @@
 # media_server
 
-A stack of self-hosted media managers and streamer along with VPN. 
+A stack of self-hosted media managers and streamer along with VPN.
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Links to Services](#links-to-services)
@@ -46,6 +46,42 @@ docker compose -f docker-compose-nginx.yml up -d
     - http://localhost:9696
 - qBitTorrent
     - http://localhost:5080
+
+## Setup Services
+1. qBitTorrent
+    - Default login is username: admin, password: changeme
+    - Change the password in settings under the Web UI tab
+2. Prowlarr
+    - Default login is username: admin, password: changeme
+    - Change the password in settings under the General tab. Make sure to save the changes
+    - Create a new api key and click restart
+3. Sonarr
+    - Default login is username: admin, password: changeme
+    - Change the password in settings under the General tab. Make sure to save the changes
+    - Create a new api code and click restart
+    - Change the qBittorrent login credentials under the Download Clients tab
+    - Update the Prowlarr api key for all the indexers under the Indexers tab
+4. Radarr
+    - Default login is username: admin, password: changeme
+    - Change the password in settings under the General tab. Make sure to save the changes
+    - Create a new api code and click restart
+    - Change the qBittorrent login credentials under the Download Clients tab
+    - Update the Prowlarr api key for all the indexers under the Indexers tab
+5. Jellyfin
+    - Walkthrough setup guide taking note of username and password
+6. Jellyseer
+    - Walkthrough setup guide
+    - Sign in with same Jellyfin credentials when prompted
+    - Use api keys for Sonarr and Radarr when prompted
+    - Default Sonarr profile to use (choose based on personal preference):
+        - WEB-2160p
+        - WEB-1080p
+    - Default Radarr profile to use (choose based on personal preference):
+        - UHD Bluray + WEB
+        - HD Bluray + WEB
+    - Notes:
+        - Quality profiles can be selected on a per request basis
+        - When requesting older content prefer the 1080/HD profiles
 
 ## Configure Nginx (Optional)
 

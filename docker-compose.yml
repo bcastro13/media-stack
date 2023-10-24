@@ -9,7 +9,7 @@ services:
       - NET_ADMIN
     environment:
       - VPN_SERVICE_PROVIDER=mullvad
-      - OPENVPN_USER= # ADD USER ID HERE
+      - OPENVPN_USER= # 1) ADD USER ID HERE
       ## For list of server regions and countries, visit https://raw.githubusercontent.com/qdm12/gluetun/master/internal/storage/servers.json
       - SERVER_COUNTRIES=USA
       - SERVER_CITIES=New York NY
@@ -42,7 +42,7 @@ services:
     ## Change the base paths to a known location
     volumes:
       - ./config/qbittorrent:/config
-      - "/path/to/drive/data/torrents:/data/torrents" # ADD PATH TO EXTERNAL DRIVE
+      - "/path/to/drive/data/torrents:/data/torrents" # 2) ADD PATH TO EXTERNAL DRIVE
     restart: unless-stopped
 
   radarr:
@@ -58,7 +58,7 @@ services:
     ## Change the base paths to a known location
     volumes:
       - ./config/radarr:/config
-      - "/path/to/drive/data:/data" # ADD PATH TO EXTERNAL DRIVE
+      - "/path/to/drive/data:/data" # 3) ADD PATH TO EXTERNAL DRIVE
     restart: unless-stopped
 
   sonarr:
@@ -74,7 +74,7 @@ services:
     ## Change the base paths to a known location
     volumes:
       - ./config/sonarr:/config
-      - "/path/to/drive/data:/data" # ADD PATH TO EXTERNAL DRIVE
+      - "/path/to/drive/data:/data" # 4) ADD PATH TO EXTERNAL DRIVE
     restart: unless-stopped
 
   prowlarr:
@@ -118,11 +118,11 @@ services:
       - DOCKER_MODS=linuxserver/mods:jellyfin-opencl-intel
     ## Change the base paths to a known location
     volumes:
-      - "/path/to/drive/data/media:/data/media" # ADD PATH TO EXTERNAL DRIVE
-#      - /dev/dri:/dev/dri # GPU drivers directory
-#    devices:
-#      # Make sure this path maps to gpu
-#      - /dev/dri/renderD128:/dev/dri/renderD128
+      - "/path/to/drive/data/media:/data/media" # 5) ADD PATH TO EXTERNAL DRIVE
+      - /dev/dri:/dev/dri # 6) GPU drivers directory
+    devices:
+      # 7) Make sure this path maps to gpu
+      - /dev/dri/renderD128:/dev/dri/renderD128
     ports:
       - 8096:8096
       - 7359:7359/udp
