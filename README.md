@@ -4,6 +4,7 @@ A stack of self-hosted media managers and streamer along with VPN.
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Links to Services](#links-to-services)
+- [Setup Services](#setup-services)
 - [Configure Nginx (Optional)](#configure-nginx-optional)
     - [Apply SSL in Nginx](#apply-ssl-in-nginx)
     - [Radarr Nginx Reverse Proxy](#radarr-nginx-reverse-proxy)
@@ -84,6 +85,7 @@ docker compose -f docker-compose-nginx.yml up -d
         - When requesting older content prefer the 1080/HD profiles
 
 ## Configure Nginx (Optional)
+### NOTE: This has not be tested
 
 - Get inside Nginx container
 - `cd /etc/nginx/conf.d`
