@@ -4,7 +4,6 @@ A stack of self-hosted media managers and streamer along with VPN.
 - [Requirements](#requirements)
 - [Installation](#installation)
 - [Description of Services](#description-of-services)
-- [Links to Services](#links-to-services)
 - [Setup Services](#setup-services)
 - [Configure Nginx (Optional)](#configure-nginx-optional)
     - [Apply SSL in Nginx](#apply-ssl-in-nginx)
@@ -34,6 +33,15 @@ Optional if you want to use Nginx as a reverse proxy
 ```
 docker compose -f docker-compose-nginx.yml up -d
 ```
+
+Links to services after install:
+- Jellyfin: http://localhost:8096
+- Jellyseerr: http://localhost:5055
+- Radarr: http://localhost:7878
+- Sonarr: http://localhost:8989
+- Prowlarr: http://localhost:9696
+- qBitTorrent: http://localhost:5080
+
 ## Description of Services
 ### [Jellyfin](https://github.com/jellyfin/jellyfin)
 Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media. It is an alternative to the proprietary Emby and Plex, to provide media from a dedicated server to end-user devices via multiple apps. Jellyfin is descended from Emby's 3.5.2 release and ported to the .NET Core framework to enable full cross-platform support. There are no strings attached, no premium licenses or features, and no hidden agendas: just a team who want to build something better and work together to achieve it. We welcome anyone who is interested in joining us in our quest!
@@ -53,20 +61,6 @@ Prowlarr is an indexer manager/proxy built on the popular *arr .net/reactjs base
 ### [qBitTorrent](https://github.com/qbittorrent/qBittorrent)
 qBittorrent is a bittorrent client programmed in C++ / Qt that uses libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg. It aims to be a good alternative to all other bittorrent clients out there. qBittorrent is fast, stable and provides unicode support as well as many features.
 
-## Links to Services
-
-- Jellyfin
-    - http://localhost:8096
-- Jellyseerr
-    - http://localhost:5055
-- Radarr
-    - http://localhost:7878
-- Sonarr
-    - http://localhost:8989
-- Prowlarr
-    - http://localhost:9696
-- qBitTorrent
-    - http://localhost:5080
 
 ## Setup Services
 1. qBitTorrent
